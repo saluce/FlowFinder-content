@@ -1,5 +1,9 @@
 {
   "format": "flowfinder-content",
   "schema": 1,
-  "entries": []
+  "entries": [],
+  "sectionShortNames": {
+    "lune-beck": "Beck → Rawt",
+    "leven": "Newby → Wood"
+  }
 }
