@@ -1,0 +1,315 @@
+{
+  "schema": 2,
+  "gauge": "F3102",
+  "label": "Hull \u00b7 Hempholme Weir (mAOD)",
+  "station": "Hull \u00b7 Hempholme Weir",
+  "model_id": "yorkshire-0.4.0-F3102",
+  "family": "reservoir",
+  "evidence_status": "screened",
+  "profile_notice": "Average-error screening does not establish storm-peak skill: rapid peaks can be substantially underestimated or mistimed. Levels are metres above Ordnance Datum (mAOD). Historic and live series agree at 479 exact overlapping timestamps (maximum difference 0.0000 m); no conversion applied. INLAND REFERENCE ONLY: Hempholme Weir stage can be influenced by controls and backwater. This model has no tide, sluice or barrage-operation input; it does not predict tidal Hull levels. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "base": 2.97,
+  "gain": 0.009493985326020712,
+  "k": 0.02,
+  "momentum": 0.3,
+  "lag": 6,
+  "tau": 1,
+  "kernel_hours": 72,
+  "kernel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.6321205588285578,
+    0.23254415793482966,
+    0.08554821486874876,
+    0.031471429479129766,
+    0.011577691889648713,
+    0.004259194822419109,
+    0.0015668702111118424,
+    0.0005764193376520044,
+    0.00021205282381583232,
+    7.800987432419471e-05,
+    2.8698228972239198e-05,
+    1.055748843691745e-05,
+    3.8838829463471556e-06,
+    1.4288006878774866e-06,
+    5.256263986017422e-07,
+    1.9336714578256668e-07,
+    7.113579753140745e-08,
+    2.6169397443139042e-08,
+    9.627183307175363e-09,
+    3.5416428150987104e-09,
+    1.3028975796473674e-09,
+    4.793092335042982e-10,
+    1.763280129698736e-10,
+    6.486745087422794e-11,
+    2.386340157782696e-11,
+    8.778854836900697e-12,
+    3.229560211524242e-12,
+    1.1880888058450631e-12,
+    4.370734459563281e-13,
+    1.6079033504929056e-13,
+    5.915145860370199e-14,
+    2.1760605535605592e-14,
+    8.00527940399078e-15,
+    2.944977713561385e-15,
+    1.0833967555273143e-15,
+    3.9855939299034206e-16,
+    1.4662180676691632e-16,
+    5.393914833696037e-17,
+    1.9843103747464513e-17,
+    7.299869917724197e-18,
+    2.6854720659566005e-18,
+    9.87929962905633e-19,
+    3.63439122670248e-19,
+    1.337017813477701e-19,
+    4.9186136605844036e-20,
+    1.8094568447940128e-20,
+    6.656619728866626e-21,
+    2.4488335459462522e-21,
+    9.008755164045889e-22,
+    3.3141358153995463e-22,
+    1.2192024317354476e-22,
+    4.4851950926169995e-23,
+    1.6500110642168373e-23,
+    6.070051482307869e-24,
+    2.2330471471933044e-24,
+    8.214921366189563e-25,
+    3.0221006814611574e-25,
+    1.1117687098597656e-25,
+    4.08996851695106e-26,
+    1.5046153324247487e-26,
+    5.535170476704005e-27,
+    2.0362754217585353e-27,
+    7.49103864227673e-28,
+    2.7557991095144434e-28,
+    1.0138018363889318e-28,
+    3.7295685302934223e-29
+  ],
+  "wet_gain": 0.75,
+  "wet_reference_mm": 50.0,
+  "blend": 0.85,
+  "floor_to_initial": true,
+  "max_input_gap_h": 1,
+  "test_model": {
+    "base": 3.0297199999999997,
+    "gain": 0.010937490261506979
+  },
+  "scores": [
+    {
+      "lead_h": 1,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 0.5620900775384945,
+      "hold_mae_cm": 0.576229406664189
+    },
+    {
+      "lead_h": 2,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 1.0229783760842293,
+      "hold_mae_cm": 1.0448284404806139
+    },
+    {
+      "lead_h": 3,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 1.4128689790256852,
+      "hold_mae_cm": 1.438721664808621
+    },
+    {
+      "lead_h": 4,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 1.7322786090602411,
+      "hold_mae_cm": 1.7633593459680408
+    },
+    {
+      "lead_h": 5,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 1.9906616436712714,
+      "hold_mae_cm": 2.0259011519881076
+    },
+    {
+      "lead_h": 6,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 2.1903849616049924,
+      "hold_mae_cm": 2.2286015112102056
+    },
+    {
+      "lead_h": 7,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 2.3430671245726002,
+      "hold_mae_cm": 2.383835005574135
+    },
+    {
+      "lead_h": 8,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 2.463759279698892,
+      "hold_mae_cm": 2.510256410256409
+    },
+    {
+      "lead_h": 9,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 2.560159147606973,
+      "hold_mae_cm": 2.6146785581568177
+    },
+    {
+      "lead_h": 10,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 2.635138428360391,
+      "hold_mae_cm": 2.701263470828687
+    },
+    {
+      "lead_h": 11,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 2.698388624941134,
+      "hold_mae_cm": 2.7818902514554678
+    },
+    {
+      "lead_h": 12,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 2.7726932806945577,
+      "hold_mae_cm": 2.872488542053758
+    },
+    {
+      "lead_h": 13,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 2.8941978030374655,
+      "hold_mae_cm": 3.0063297411123484
+    },
+    {
+      "lead_h": 14,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.046864539945857,
+      "hold_mae_cm": 3.1741607828564335
+    },
+    {
+      "lead_h": 15,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.2086466246123733,
+      "hold_mae_cm": 3.3475783475783465
+    },
+    {
+      "lead_h": 16,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.3658730414074314,
+      "hold_mae_cm": 3.511160658986745
+    },
+    {
+      "lead_h": 17,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.5051376834074737,
+      "hold_mae_cm": 3.6552334943639275
+    },
+    {
+      "lead_h": 18,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.61820639260751,
+      "hold_mae_cm": 3.7718320327015964
+    },
+    {
+      "lead_h": 19,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.7029088035542035,
+      "hold_mae_cm": 3.860696147652668
+    },
+    {
+      "lead_h": 20,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.7565323778431186,
+      "hold_mae_cm": 3.922284157066765
+    },
+    {
+      "lead_h": 21,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.786383668984198,
+      "hold_mae_cm": 3.963297411123497
+    },
+    {
+      "lead_h": 22,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.8020682025633366,
+      "hold_mae_cm": 3.9977579586275227
+    },
+    {
+      "lead_h": 23,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.8266581996167526,
+      "hold_mae_cm": 4.036764523721045
+    },
+    {
+      "lead_h": 24,
+      "n": 8073,
+      "dates": 337,
+      "model_mae_cm": 3.887017318610522,
+      "hold_mae_cm": 4.11034311903877
+    }
+  ],
+  "audit": [
+    {
+      "month": "2023-water",
+      "returned": 28975,
+      "quality": {
+        "Good": 27728,
+        "Missing": 121,
+        "Unchecked": 1126
+      }
+    },
+    {
+      "month": "2024-water",
+      "returned": 35040,
+      "quality": {
+        "Good": 29478,
+        "Suspect": 5562
+      }
+    },
+    {
+      "month": "2025-water",
+      "returned": 35040,
+      "quality": {
+        "Good": 32386,
+        "Unchecked": 2654
+      }
+    }
+  ],
+  "winter_data_note": "Oct 2023\u2013Sep 2026: 22398 Good hourly readings; flags {'Good': 89592, 'Missing': 121, 'Unchecked': 3780, 'Suspect': 5562}. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "training": "Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026.",
+  "live_measure": "F3102-level-2-i-15_min-mAOD",
+  "weather_lat": 53.934077,
+  "weather_lon": -0.357103,
+  "replay_start_utc": "2025-10-01T00:00:00Z",
+  "replay_end_utc": "2026-09-29T23:00:00Z",
+  "limitations": "Exploratory retrospective-rain test; not archived weather forecast skill. Limited/benchmark models are labelled. First observed actual retained. No calibrated confidence interval.",
+  "replay_example_utc": "2026-01-07T17:00:00Z",
+  "reference_notice": "INLAND REFERENCE ONLY: Hempholme Weir stage can be influenced by controls and backwater. This model has no tide, sluice or barrage-operation input; it does not predict tidal Hull levels. ",
+  "stage_unit": "mAOD",
+  "storm_diagnostics": {
+    "windows": 12,
+    "median_absolute_maximum_error_cm": 3.300000000000014,
+    "maximum_absolute_maximum_error_cm": 9.318321790140827,
+    "underprediction_over_50cm": 0,
+    "note": "Hindsight-selected observed events; known retrospective rainfall; maxima include boundary flags in research CSV. Not independent operational peak skill."
+  }
+}

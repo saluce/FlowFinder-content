@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "base": 0.274,
+  "k": 0.02,
+  "gain": 0.04361926275058932,
+  "momentum": 0.6,
+  "lag": 3,
+  "tau": 1,
+  "kernel": [
+    0.0,
+    0.0,
+    0.0,
+    0.6321205593078669,
+    0.23254415811115767,
+    0.08554821493361621,
+    0.03147142950299317,
+    0.011577691898427568,
+    0.004259194825648669,
+    0.0015668702122999313,
+    0.0005764193380890779,
+    0.00021205282397662265,
+    7.800987438334617e-05,
+    2.8698228993999803e-05,
+    1.055748844492273e-05,
+    3.883882949292133e-06,
+    1.4288006889608832e-06,
+    5.256263990003016e-07,
+    1.933671459291885e-07,
+    7.11357975853466e-08,
+    2.6169397462982146e-08,
+    9.627183314475232e-09,
+    3.5416428177841824e-09,
+    1.3028975806352973e-09
+  ],
+  "error90_m": [
+    0.05174756119414286,
+    0.07905071397874296,
+    0.10188393274280434,
+    0.1282171532540012,
+    0.15012208654454978,
+    0.17442219694296596,
+    0.1895135729631114,
+    0.21438375734714354,
+    0.23160253201187825,
+    0.24166040190764473,
+    0.2504713121567779,
+    0.25846735761929596,
+    0.2666453510395335,
+    0.2720692325659528,
+    0.27942071491403464,
+    0.28787812217400793,
+    0.290105453866945,
+    0.3001688507098603,
+    0.29936476833667625,
+    0.30066821354456996,
+    0.3091627923498739,
+    0.31371973192764935,
+    0.31654020196020627,
+    0.3189793361427081
+  ],
+  "training": "Nov\u2013Mar 2023/24, 2024/25, 2025/26",
+  "station": "Lune / Killington / 722421",
+  "test_model": {
+    "base": 0.399,
+    "gain": 0.03876560174077717
+  },
+  "scores": [
+    {
+      "lead_h": 1,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 1.5308872888538425,
+      "hold_mae_cm": 1.5718321678321676
+    },
+    {
+      "lead_h": 2,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 2.730606126445114,
+      "hold_mae_cm": 3.069846153846154
+    },
+    {
+      "lead_h": 3,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 3.8987051169740092,
+      "hold_mae_cm": 4.456027972027972
+    },
+    {
+      "lead_h": 4,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 4.977178339005742,
+      "hold_mae_cm": 5.7450909090909095
+    },
+    {
+      "lead_h": 5,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 5.9381834977969294,
+      "hold_mae_cm": 6.928391608391609
+    },
+    {
+      "lead_h": 6,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 6.7518897862227325,
+      "hold_mae_cm": 7.998797202797203
+    },
+    {
+      "lead_h": 7,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 7.459563807435515,
+      "hold_mae_cm": 8.9833006993007
+    },
+    {
+      "lead_h": 8,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 8.090615225681523,
+      "hold_mae_cm": 9.880643356643356
+    },
+    {
+      "lead_h": 9,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 8.650981853220062,
+      "hold_mae_cm": 10.688783216783218
+    },
+    {
+      "lead_h": 10,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 9.14409660766839,
+      "hold_mae_cm": 11.448335664335666
+    },
+    {
+      "lead_h": 11,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 9.57814045632237,
+      "hold_mae_cm": 12.15365034965035
+    },
+    {
+      "lead_h": 12,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 9.958287718375137,
+      "hold_mae_cm": 12.77448951048951
+    },
+    {
+      "lead_h": 13,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 10.271144222720956,
+      "hold_mae_cm": 13.330153846153847
+    },
+    {
+      "lead_h": 14,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 10.534982932735963,
+      "hold_mae_cm": 13.827524475524475
+    },
+    {
+      "lead_h": 15,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 10.75051548402838,
+      "hold_mae_cm": 14.298825174825176
+    },
+    {
+      "lead_h": 16,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 10.967051645390539,
+      "hold_mae_cm": 14.77916083916084
+    },
+    {
+      "lead_h": 17,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 11.20548398622539,
+      "hold_mae_cm": 15.223832167832166
+    },
+    {
+      "lead_h": 18,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 11.422755046229774,
+      "hold_mae_cm": 15.642041958041958
+    },
+    {
+      "lead_h": 19,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 11.607977243526731,
+      "hold_mae_cm": 16.067020979020977
+    },
+    {
+      "lead_h": 20,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 11.772438929174974,
+      "hold_mae_cm": 16.464055944055943
+    },
+    {
+      "lead_h": 21,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 11.95291017145457,
+      "hold_mae_cm": 16.82081118881119
+    },
+    {
+      "lead_h": 22,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 12.123159248442278,
+      "hold_mae_cm": 17.16509090909091
+    },
+    {
+      "lead_h": 23,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 12.300892931250813,
+      "hold_mae_cm": 17.495860139860138
+    },
+    {
+      "lead_h": 24,
+      "n": 3575,
+      "dates": 149,
+      "model_mae_cm": 12.469967953882833,
+      "hold_mae_cm": 17.815020979020975
+    }
+  ],
+  "audit": [
+    {
+      "winter": "2023/2024",
+      "returned": 14592,
+      "quality": {
+        "Good": 13537,
+        "Suspect": 1055
+      },
+      "good_hourly": 3384
+    },
+    {
+      "winter": "2024/2025",
+      "returned": 14496,
+      "quality": {
+        "Good": 14496
+      },
+      "good_hourly": 3624
+    },
+    {
+      "winter": "2025/2026",
+      "returned": 14496,
+      "quality": {
+        "Good": 14496
+      },
+      "good_hourly": 3624
+    }
+  ],
+  "limitations": "Retrospective ERA5 rainfall, including future observed rain in tests. Not archived weather-forecast skill. Stage-response approximation; no snowmelt or catchment saturation model. Test used for reporting before final all-season refit. Correlated hourly issues. Three-winter stage-response experiment; coarse upstream rainfall sample, not catchment radar. 2023/24 excludes 1055 Suspect quarter-hour readings; 2024/25 and 2025/26 are complete and Good.",
+  "gauge": "722421",
+  "model_id": "lune-0.2.2-722421",
+  "label": "Lune \u00b7 Lowgill\u2013Rawthey (Killington)",
+  "live_measure": "722421-level-stage-i-15_min-m",
+  "weather_lat": 54.46,
+  "weather_lon": -2.58,
+  "winter_data_note": "3384 Good hours 2023/2024; 3624 Good hours 2024/2025; 3624 Good hours 2025/2026 \u00b7 Three-winter stage-response experiment; coarse upstream rainfall sample, not catchment radar. 2023/24 excludes 1055 Suspect quarter-hour readings; 2024/25 and 2025/26 are complete and Good.",
+  "replay_example_utc": "2026-03-12T15:00:00Z"
+}

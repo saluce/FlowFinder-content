@@ -1,0 +1,536 @@
+{
+  "schema": 2,
+  "gauge": "750917",
+  "label": "Greta \u00b7 Keswick Campsite (substitute reference)",
+  "station": "Greta \u00b7 Keswick Campsite (substitute reference)",
+  "model_id": "lakes-0.3.0-750917",
+  "family": "reservoir",
+  "evidence_status": "screened",
+  "profile_notice": "SUBSTITUTE REFERENCE: predicts the Keswick Campsite gauge, not Greta Bridge. No conversion between gauge datums. Used because verified recent coverage is materially stronger; the original reference remains documented but is not a second selectable forecast. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "base": 0.274,
+  "gain": 0.082899552773715,
+  "k": 0.08,
+  "momentum": 0.95,
+  "lag": 1,
+  "tau": 12,
+  "kernel_hours": 72,
+  "kernel": [
+    0.0,
+    0.080171580900353,
+    0.07376141521937273,
+    0.06786377808773823,
+    0.062437689985267414,
+    0.057445447933302515,
+    0.05285236351691458,
+    0.04862652185369587,
+    0.04473855983434362,
+    0.04116146209414762,
+    0.03787037329769713,
+    0.034842425432473706,
+    0.03205657891128612,
+    0.029493476379452946,
+    0.027135308210917558,
+    0.02496568875869991,
+    0.022969542499815934,
+    0.021132999283546516,
+    0.01944329795519246,
+    0.017888697685648564,
+    0.016458396390673462,
+    0.015142455672994532,
+    0.013931731765710732,
+    0.012817811997156077,
+    0.011792956335752178,
+    0.010850043608676283,
+    0.009982522020647198,
+    0.009184363629010685,
+    0.00845002245879598,
+    0.007774395966707582,
+    0.007152789586286051,
+    0.0065808841078812685,
+    0.006054705666779037,
+    0.005570598130944566,
+    0.005125197696520095,
+    0.004715409514554386,
+    0.004338386186555733,
+    0.003991507979445611,
+    0.003672364622437309,
+    0.0033787385593557705,
+    0.0031085895400280025,
+    0.0028600404436779003,
+    0.0026313642358198244,
+    0.0024209719680213866,
+    0.0022274017371522368,
+    0.002049308527402568,
+    0.0018854548644889758,
+    0.0017347022171087696,
+    0.0015960030858960278,
+    0.001468393724909804,
+    0.0013509874450800125,
+    0.0012429684530802043,
+    0.0011435861828168925,
+    0.0010521500801479505,
+    0.000968024804591916,
+    0.0008906258146874346,
+    0.0008194153063278651,
+    0.0007538984758487279,
+    0.000693620081902182,
+    0.0006381612822288364,
+    0.0005871367233473278,
+    0.0005401918629394713,
+    0.0004970005063256697,
+    0.00045726253991287775,
+    0.0004207018458660613,
+    0.0003870643835133162,
+    0.0003561164241533687,
+    0.000327642927000074,
+    0.0003014460449792212,
+    0.0002773437499952321,
+    0.0002551685681154647,
+    0.00023476641588359546
+  ],
+  "wet_gain": 0.75,
+  "wet_reference_mm": 50.0,
+  "blend": 0.5,
+  "floor_to_initial": true,
+  "max_input_gap_h": 1,
+  "test_model": {
+    "base": 0.443,
+    "gain": 0.07917490419825327
+  },
+  "scores": [
+    {
+      "lead_h": 1,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 0.605461231018654,
+      "hold_mae_cm": 0.8663853211009175
+    },
+    {
+      "lead_h": 2,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 1.179187364085658,
+      "hold_mae_cm": 1.677639143730887
+    },
+    {
+      "lead_h": 3,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 1.7534212343853661,
+      "hold_mae_cm": 2.4490886850152904
+    },
+    {
+      "lead_h": 4,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 2.306368632790567,
+      "hold_mae_cm": 3.18359633027523
+    },
+    {
+      "lead_h": 5,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 2.822993583705873,
+      "hold_mae_cm": 3.8697125382263007
+    },
+    {
+      "lead_h": 6,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 3.3083785854544794,
+      "hold_mae_cm": 4.517357798165137
+    },
+    {
+      "lead_h": 7,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 3.7636416465502087,
+      "hold_mae_cm": 5.125590214067278
+    },
+    {
+      "lead_h": 8,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 4.19029433136864,
+      "hold_mae_cm": 5.700122324159022
+    },
+    {
+      "lead_h": 9,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 4.587783131728102,
+      "hold_mae_cm": 6.240195718654434
+    },
+    {
+      "lead_h": 10,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 4.948327937913972,
+      "hold_mae_cm": 6.748941896024465
+    },
+    {
+      "lead_h": 11,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 5.274616632519637,
+      "hold_mae_cm": 7.227107033639143
+    },
+    {
+      "lead_h": 12,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 5.577685188981138,
+      "hold_mae_cm": 7.678617737003057
+    },
+    {
+      "lead_h": 13,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 5.857985312068532,
+      "hold_mae_cm": 8.108929663608562
+    },
+    {
+      "lead_h": 14,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 6.123168469898606,
+      "hold_mae_cm": 8.51811620795107
+    },
+    {
+      "lead_h": 15,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 6.380627480286694,
+      "hold_mae_cm": 8.905284403669725
+    },
+    {
+      "lead_h": 16,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 6.62730194977295,
+      "hold_mae_cm": 9.276733944954128
+    },
+    {
+      "lead_h": 17,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 6.866107894667342,
+      "hold_mae_cm": 9.633688073394495
+    },
+    {
+      "lead_h": 18,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 7.096337651555064,
+      "hold_mae_cm": 9.98074617737003
+    },
+    {
+      "lead_h": 19,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 7.323408431134164,
+      "hold_mae_cm": 10.31067889908257
+    },
+    {
+      "lead_h": 20,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 7.5357907598550335,
+      "hold_mae_cm": 10.628403669724772
+    },
+    {
+      "lead_h": 21,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 7.731912499848527,
+      "hold_mae_cm": 10.940293577981652
+    },
+    {
+      "lead_h": 22,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 7.913701518520363,
+      "hold_mae_cm": 11.244501529051988
+    },
+    {
+      "lead_h": 23,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 8.088061283288555,
+      "hold_mae_cm": 11.543963302752292
+    },
+    {
+      "lead_h": 24,
+      "n": 8175,
+      "dates": 341,
+      "model_mae_cm": 8.259653619693456,
+      "hold_mae_cm": 11.836770642201834
+    }
+  ],
+  "audit": [
+    {
+      "month": "2023-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2023-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2023-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-02",
+      "returned": 2784,
+      "quality": {
+        "Good": 2784
+      }
+    },
+    {
+      "month": "2024-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-05",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-02",
+      "returned": 2688,
+      "quality": {
+        "Good": 2688
+      }
+    },
+    {
+      "month": "2025-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-05",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2879,
+        "Unchecked": 1
+      }
+    },
+    {
+      "month": "2025-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-02",
+      "returned": 2688,
+      "quality": {
+        "Good": 2688
+      }
+    },
+    {
+      "month": "2026-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2026-05",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2026-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 635,
+        "Unchecked": 2245
+      }
+    }
+  ],
+  "winter_data_note": "SUBSTITUTE REFERENCE: predicts the Keswick Campsite gauge, not Greta Bridge. No conversion between gauge datums. Used because verified recent coverage is materially stronger; the original reference remains documented but is not a second selectable forecast. Oct 2023\u2013Sep 2026: 25743 Good hourly readings; flags {'Good': 102970, 'Unchecked': 2246}. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "training": "Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026.",
+  "live_measure": "750917-level-stage-i-15_min-m",
+  "weather_lat": 54.601275,
+  "weather_lon": -3.1492,
+  "replay_start_utc": "2025-10-01T00:00:00Z",
+  "replay_end_utc": "2026-09-29T23:00:00Z",
+  "limitations": "Exploratory retrospective-rain test; not archived weather forecast skill. Limited/benchmark models are labelled. First observed actual retained. No calibrated confidence interval.",
+  "replay_example_utc": "2026-06-10T15:00:00Z",
+  "replaces_reference": "750832"
+}

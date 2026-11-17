@@ -1,0 +1,538 @@
+{
+  "schema": 2,
+  "gauge": "740101",
+  "label": "Duddon \u00b7 Ulpha",
+  "station": "Duddon \u00b7 Ulpha",
+  "model_id": "lakes-0.3.0-740101",
+  "family": "reservoir",
+  "evidence_status": "screened",
+  "profile_notice": "Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "base": 0.257,
+  "gain": 0.10189920226053113,
+  "k": 0.16,
+  "momentum": 0.95,
+  "lag": 1,
+  "tau": 4,
+  "kernel_hours": 72,
+  "kernel": [
+    0.0,
+    0.22119922125429659,
+    0.17227012672763112,
+    0.13416410959528927,
+    0.10448711361288907,
+    0.08137464590258886,
+    0.06337463795109449,
+    0.04935621766317916,
+    0.03843866096552664,
+    0.029936059260168388,
+    0.02331422639389112,
+    0.01815713777226642,
+    0.014140793115376471,
+    0.011012860751505928,
+    0.008576824577129155,
+    0.006679637696934258,
+    0.005202107069005675,
+    0.00405140505896291,
+    0.0031552374324597663,
+    0.0024573013831758746,
+    0.0019137482414598177,
+    0.00149042862905043,
+    0.0011607469834165154,
+    0.000903990659632553,
+    0.0007040286336110681,
+    0.0005482980511609911,
+    0.00042701495160070506,
+    0.00033255957868982714,
+    0.0002589976603015339,
+    0.0002017075806564963,
+    0.00015709002176671785,
+    0.00012234183196462392,
+    9.527991453643933e-05,
+    7.420407205195549e-05,
+    5.779018942114988e-05,
+    4.5007044775036344e-05,
+    3.5051521714528086e-05,
+    2.7298152559118826e-05,
+    2.1259822589444417e-05,
+    1.6557166480618456e-05,
+    1.2894734220549268e-05,
+    1.0042429108461412e-05,
+    7.821051653608818e-06,
+    6.091041152272453e-06,
+    4.743707619109939e-06,
+    3.69440320842461e-06,
+    2.8772041117025964e-06,
+    2.240768815250248e-06,
+    1.7451125079988773e-06,
+    1.359094987777229e-06,
+    1.0584642407493273e-06,
+    8.243327795486562e-07,
+    6.419910142239212e-07,
+    4.999831046023952e-07,
+    3.8938723338681754e-07,
+    3.032550822796614e-07,
+    2.361752955497836e-07,
+    1.8393350511629195e-07,
+    1.4324755781763643e-07,
+    1.1156131020144158e-07,
+    8.688403574535463e-08,
+    6.766535507488611e-08,
+    5.269783151912596e-08,
+    4.104111245326026e-08,
+    3.1962850516720675e-08,
+    2.489269301161632e-08,
+    1.938644881020288e-08,
+    1.5098181514359707e-08,
+    1.175847558633755e-08,
+    9.15750999436568e-09,
+    7.131875954596208e-09,
+    5.55431057820765e-09
+  ],
+  "wet_gain": 0.0,
+  "wet_reference_mm": 50.0,
+  "blend": 0.5,
+  "floor_to_initial": true,
+  "max_input_gap_h": 1,
+  "test_model": {
+    "base": 0.344,
+    "gain": 0.08401172844216594
+  },
+  "scores": [
+    {
+      "lead_h": 1,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 0.932434764914993,
+      "hold_mae_cm": 1.316034897713598
+    },
+    {
+      "lead_h": 2,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 1.777683154292103,
+      "hold_mae_cm": 2.5230144404332133
+    },
+    {
+      "lead_h": 3,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 2.5455608349137084,
+      "hold_mae_cm": 3.6255415162454874
+    },
+    {
+      "lead_h": 4,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 3.23405913367035,
+      "hold_mae_cm": 4.621931407942238
+    },
+    {
+      "lead_h": 5,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 3.8377032669582847,
+      "hold_mae_cm": 5.523555956678701
+    },
+    {
+      "lead_h": 6,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 4.356630637573752,
+      "hold_mae_cm": 6.333543922984355
+    },
+    {
+      "lead_h": 7,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 4.787061377676649,
+      "hold_mae_cm": 7.059867629362215
+    },
+    {
+      "lead_h": 8,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 5.1486302566327105,
+      "hold_mae_cm": 7.7178700361010835
+    },
+    {
+      "lead_h": 9,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 5.446754306680438,
+      "hold_mae_cm": 8.295517448856799
+    },
+    {
+      "lead_h": 10,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 5.715798471365635,
+      "hold_mae_cm": 8.801594464500601
+    },
+    {
+      "lead_h": 11,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 5.958556761046014,
+      "hold_mae_cm": 9.245938628158843
+    },
+    {
+      "lead_h": 12,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 6.173436787219499,
+      "hold_mae_cm": 9.67346570397112
+    },
+    {
+      "lead_h": 13,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 6.34849522489985,
+      "hold_mae_cm": 10.06326714801444
+    },
+    {
+      "lead_h": 14,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 6.499438109922044,
+      "hold_mae_cm": 10.428519855595669
+    },
+    {
+      "lead_h": 15,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 6.678927187543468,
+      "hold_mae_cm": 10.788567990373044
+    },
+    {
+      "lead_h": 16,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 6.827807977751258,
+      "hold_mae_cm": 11.116696750902527
+    },
+    {
+      "lead_h": 17,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 6.9811358176896166,
+      "hold_mae_cm": 11.419163658243079
+    },
+    {
+      "lead_h": 18,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 7.14847023570356,
+      "hold_mae_cm": 11.718802647412756
+    },
+    {
+      "lead_h": 19,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 7.31566671789437,
+      "hold_mae_cm": 12.034867629362214
+    },
+    {
+      "lead_h": 20,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 7.4595963953814115,
+      "hold_mae_cm": 12.333243080625753
+    },
+    {
+      "lead_h": 21,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 7.593919121151773,
+      "hold_mae_cm": 12.609025270758123
+    },
+    {
+      "lead_h": 22,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 7.7240836883583865,
+      "hold_mae_cm": 12.856859205776171
+    },
+    {
+      "lead_h": 23,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 7.833522199243944,
+      "hold_mae_cm": 13.080415162454873
+    },
+    {
+      "lead_h": 24,
+      "n": 3324,
+      "dates": 139,
+      "model_mae_cm": 7.942316913305864,
+      "hold_mae_cm": 13.289500601684717
+    }
+  ],
+  "audit": [
+    {
+      "month": "2023-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2023-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 1591,
+        "Suspect": 1289
+      }
+    },
+    {
+      "month": "2023-12",
+      "returned": 2976,
+      "quality": {
+        "Suspect": 2976
+      }
+    },
+    {
+      "month": "2024-01",
+      "returned": 2976,
+      "quality": {
+        "Suspect": 2976
+      }
+    },
+    {
+      "month": "2024-02",
+      "returned": 2784,
+      "quality": {
+        "Suspect": 2784
+      }
+    },
+    {
+      "month": "2024-03",
+      "returned": 2976,
+      "quality": {
+        "Suspect": 2976
+      }
+    },
+    {
+      "month": "2024-04",
+      "returned": 2880,
+      "quality": {
+        "Suspect": 2880
+      }
+    },
+    {
+      "month": "2024-05",
+      "returned": 2976,
+      "quality": {
+        "Suspect": 133,
+        "Unchecked": 2,
+        "Good": 2841
+      }
+    },
+    {
+      "month": "2024-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-02",
+      "returned": 2688,
+      "quality": {
+        "Good": 2688
+      }
+    },
+    {
+      "month": "2025-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-05",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-02",
+      "returned": 2688,
+      "quality": {
+        "Good": 1584,
+        "Unchecked": 1104
+      }
+    },
+    {
+      "month": "2026-03",
+      "returned": 2976,
+      "quality": {
+        "Unchecked": 2976
+      }
+    },
+    {
+      "month": "2026-04",
+      "returned": 2880,
+      "quality": {
+        "Unchecked": 2880
+      }
+    },
+    {
+      "month": "2026-05",
+      "returned": 2976,
+      "quality": {
+        "Unchecked": 2975,
+        "Missing": 1
+      }
+    },
+    {
+      "month": "2026-06",
+      "returned": 2880,
+      "quality": {
+        "Unchecked": 2880
+      }
+    },
+    {
+      "month": "2026-07",
+      "returned": 2976,
+      "quality": {
+        "Unchecked": 2976
+      }
+    },
+    {
+      "month": "2026-08",
+      "returned": 2976,
+      "quality": {
+        "Unchecked": 2976
+      }
+    },
+    {
+      "month": "2026-09",
+      "returned": 2880,
+      "quality": {
+        "Unchecked": 2880
+      }
+    }
+  ],
+  "winter_data_note": "Oct 2023\u2013Sep 2026: 16888 Good hourly readings; flags {'Good': 67552, 'Suspect': 16014, 'Unchecked': 21649, 'Missing': 1}. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "training": "Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026.",
+  "live_measure": "740101-level-stage-i-15_min-m",
+  "weather_lat": 54.341859,
+  "weather_lon": -3.218047,
+  "replay_start_utc": "2025-10-01T00:00:00Z",
+  "replay_end_utc": "2026-09-29T23:00:00Z",
+  "limitations": "Exploratory retrospective-rain test; not archived weather forecast skill. Limited/benchmark models are labelled. First observed actual retained. No calibrated confidence interval.",
+  "replay_example_utc": "2025-11-06T03:00:00Z"
+}

@@ -1,0 +1,534 @@
+{
+  "schema": 2,
+  "gauge": "735019",
+  "label": "Stock Ghyll \u00b7 Ambleside",
+  "station": "Stock Ghyll \u00b7 Ambleside",
+  "model_id": "lakes-0.3.0-735019",
+  "family": "reservoir",
+  "evidence_status": "screened",
+  "profile_notice": "Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "base": 0.063,
+  "gain": 0.0817915734384016,
+  "k": 0.16,
+  "momentum": 0.95,
+  "lag": 0,
+  "tau": 4,
+  "kernel_hours": 72,
+  "kernel": [
+    0.22119922029745478,
+    0.17227012598244199,
+    0.1341641090149354,
+    0.104487113160909,
+    0.08137464555058643,
+    0.06337463767695473,
+    0.04935621744967889,
+    0.03843866079925246,
+    0.02993605913067393,
+    0.023314226293040734,
+    0.018157137693724065,
+    0.014140793054207621,
+    0.01101286070386758,
+    0.008576824540028373,
+    0.006679637668040139,
+    0.005202107046502913,
+    0.004051405041437741,
+    0.003155237418811151,
+    0.0024573013725463226,
+    0.0019137482331815139,
+    0.0014904286226032806,
+    0.0011607469783954704,
+    0.0009039906557221592,
+    0.0007040286305656505,
+    0.0005482980487892174,
+    0.00042701494975356586,
+    0.00033255957725127365,
+    0.0002589976591811873,
+    0.0002017075797839695,
+    0.00015709002108719333,
+    0.00012234183143540968,
+    9.527991412428687e-05,
+    7.420407173097082e-05,
+    5.779018917116677e-05,
+    4.5007044580349304e-05,
+    3.5051521562905664e-05,
+    2.729815244103517e-05,
+    2.125982249748077e-05,
+    1.6557166408997094e-05,
+    1.2894734164770497e-05,
+    1.0042429065020861e-05,
+    7.821051619777282e-06,
+    6.091041125924427e-06,
+    4.743707598590075e-06,
+    3.6944031924437244e-06,
+    2.8772040992566704e-06,
+    2.240768805557351e-06,
+    1.7451125004500416e-06,
+    1.3590949818981899e-06,
+    1.0584642361707269e-06,
+    8.243327759828386e-07,
+    6.419910114468597e-07,
+    4.999831024396175e-07,
+    3.893872317024446e-07,
+    3.032550809678704e-07,
+    2.3617529452815976e-07,
+    1.839335043206505e-07,
+    1.4324755719799024e-07,
+    1.1156130971886065e-07,
+    8.688403536952022e-08,
+    6.766535478218598e-08,
+    5.269783129117087e-08,
+    4.104111227572866e-08,
+    3.1962850378458925e-08,
+    2.4892692903937962e-08,
+    1.9386448726342888e-08,
+    1.509818144904948e-08,
+    1.1758475535473893e-08,
+    9.157509954753025e-09,
+    7.1318759237458415e-09,
+    5.55431055418136e-09,
+    4.325701409018212e-09
+  ],
+  "wet_gain": 0.0,
+  "wet_reference_mm": 50.0,
+  "blend": 0.5,
+  "floor_to_initial": true,
+  "max_input_gap_h": 1,
+  "test_model": {
+    "base": 0.119,
+    "gain": 0.06897386010665399
+  },
+  "scores": [
+    {
+      "lead_h": 1,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 0.7864327449016508,
+      "hold_mae_cm": 0.940069845126025
+    },
+    {
+      "lead_h": 2,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 1.434821125083801,
+      "hold_mae_cm": 1.6910719708472517
+    },
+    {
+      "lead_h": 3,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 1.9715080459985028,
+      "hold_mae_cm": 2.32151533556028
+    },
+    {
+      "lead_h": 4,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 2.437259167742961,
+      "hold_mae_cm": 2.8755845733373824
+    },
+    {
+      "lead_h": 5,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 2.8373391479349976,
+      "hold_mae_cm": 3.353188581840268
+    },
+    {
+      "lead_h": 6,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 3.1513694327520616,
+      "hold_mae_cm": 3.7699362283631945
+    },
+    {
+      "lead_h": 7,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 3.413823407446986,
+      "hold_mae_cm": 4.12793805040996
+    },
+    {
+      "lead_h": 8,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 3.6340760921181126,
+      "hold_mae_cm": 4.447828727604008
+    },
+    {
+      "lead_h": 9,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 3.818048152471702,
+      "hold_mae_cm": 4.727482538718494
+    },
+    {
+      "lead_h": 10,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 3.9639824114868243,
+      "hold_mae_cm": 4.96658062556939
+    },
+    {
+      "lead_h": 11,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.07075266258363,
+      "hold_mae_cm": 5.175842696629213
+    },
+    {
+      "lead_h": 12,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.150111008832901,
+      "hold_mae_cm": 5.37834801093228
+    },
+    {
+      "lead_h": 13,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.20713769982762,
+      "hold_mae_cm": 5.569708472517462
+    },
+    {
+      "lead_h": 14,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.257846700307479,
+      "hold_mae_cm": 5.743106589735803
+    },
+    {
+      "lead_h": 15,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.3132230413568795,
+      "hold_mae_cm": 5.9081081081081095
+    },
+    {
+      "lead_h": 16,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.36644087072055,
+      "hold_mae_cm": 6.0730488915882175
+    },
+    {
+      "lead_h": 17,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.419669885220938,
+      "hold_mae_cm": 6.233252353477072
+    },
+    {
+      "lead_h": 18,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.48678854699163,
+      "hold_mae_cm": 6.4048739750986945
+    },
+    {
+      "lead_h": 19,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.5620333400724045,
+      "hold_mae_cm": 6.5743243243243255
+    },
+    {
+      "lead_h": 20,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.630805171818167,
+      "hold_mae_cm": 6.7372608563619805
+    },
+    {
+      "lead_h": 21,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.69717515067486,
+      "hold_mae_cm": 6.8832371697540236
+    },
+    {
+      "lead_h": 22,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.751725696835236,
+      "hold_mae_cm": 7.012966899483754
+    },
+    {
+      "lead_h": 23,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.803263266662861,
+      "hold_mae_cm": 7.126298208320679
+    },
+    {
+      "lead_h": 24,
+      "n": 6586,
+      "dates": 275,
+      "model_mae_cm": 4.845331728663615,
+      "hold_mae_cm": 7.227178864257515
+    }
+  ],
+  "audit": [
+    {
+      "month": "2023-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2023-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2023-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-02",
+      "returned": 2784,
+      "quality": {
+        "Good": 2784
+      }
+    },
+    {
+      "month": "2024-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-05",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-02",
+      "returned": 2688,
+      "quality": {
+        "Good": 2688
+      }
+    },
+    {
+      "month": "2025-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-05",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-02",
+      "returned": 2688,
+      "quality": {
+        "Good": 2688
+      }
+    },
+    {
+      "month": "2026-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2026-05",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2026-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 229,
+        "Unchecked": 2747
+      }
+    },
+    {
+      "month": "2026-08",
+      "returned": 2976,
+      "quality": {
+        "Unchecked": 2976
+      }
+    },
+    {
+      "month": "2026-09",
+      "returned": 2880,
+      "quality": {
+        "Unchecked": 2880
+      }
+    }
+  ],
+  "winter_data_note": "Oct 2023\u2013Sep 2026: 24154 Good hourly readings; flags {'Good': 96613, 'Unchecked': 8603}. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "training": "Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026.",
+  "live_measure": "735019-level-stage-i-15_min-m",
+  "weather_lat": 54.433747,
+  "weather_lon": -2.965717,
+  "replay_start_utc": "2025-10-01T00:00:00Z",
+  "replay_end_utc": "2026-09-29T23:00:00Z",
+  "limitations": "Exploratory retrospective-rain test; not archived weather forecast skill. Limited/benchmark models are labelled. First observed actual retained. No calibrated confidence interval.",
+  "replay_example_utc": "2025-11-24T12:00:00Z"
+}

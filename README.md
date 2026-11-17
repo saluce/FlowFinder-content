@@ -1,12 +1,13 @@
 # FlowFinder GitHub experiments
 
-Public files used by the app's optional GitHub features. Checked 15 November 2026.
+Public files used by the app's optional GitHub features. Checked 17 November 2026.
 
 | Feature | File to view/edit | What the app can use |
 | --- | --- | --- |
 | Online information | [content.json](content.json) | Help, known issues, release notes and supplementary river notes in `entries`. |
 | Widget short names | [content.json](content.json) → `sectionShortNames` | Section-name overrides. Other sections use the app's abbreviation rules. |
 | Online prediction updates | [predictions/shortlist.json](predictions/shortlist.json) | 78 compatible Prediction B candidate selections, with model fingerprints and evidence dates. |
+| Fitted model files | [predictions/bundled/index.json](predictions/bundled/index.json) | Public inspection snapshot, including 11 early Welsh fits, Leven and fitted runout curves. |
 | Feature inventory | [experiments/README.md](experiments/README.md) | Which experiments use GitHub and which are implemented in the app. Documentation only. |
 
 App download addresses:

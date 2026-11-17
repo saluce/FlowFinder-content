@@ -1,0 +1,544 @@
+{
+  "schema": 2,
+  "gauge": "750605",
+  "label": "St John\u2019s Beck \u00b7 Thirlmere St Johns",
+  "station": "St John\u2019s Beck \u00b7 Thirlmere St Johns",
+  "model_id": "lakes-0.3.0-750605",
+  "family": "reservoir",
+  "evidence_status": "limited_research",
+  "profile_notice": "Does not improve on hold level at both 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "base": 0.13,
+  "gain": 0.022971745336545883,
+  "k": 0.16,
+  "momentum": 0.95,
+  "lag": 0,
+  "tau": 4,
+  "kernel_hours": 72,
+  "kernel": [
+    0.22119922029745478,
+    0.17227012598244199,
+    0.1341641090149354,
+    0.104487113160909,
+    0.08137464555058643,
+    0.06337463767695473,
+    0.04935621744967889,
+    0.03843866079925246,
+    0.02993605913067393,
+    0.023314226293040734,
+    0.018157137693724065,
+    0.014140793054207621,
+    0.01101286070386758,
+    0.008576824540028373,
+    0.006679637668040139,
+    0.005202107046502913,
+    0.004051405041437741,
+    0.003155237418811151,
+    0.0024573013725463226,
+    0.0019137482331815139,
+    0.0014904286226032806,
+    0.0011607469783954704,
+    0.0009039906557221592,
+    0.0007040286305656505,
+    0.0005482980487892174,
+    0.00042701494975356586,
+    0.00033255957725127365,
+    0.0002589976591811873,
+    0.0002017075797839695,
+    0.00015709002108719333,
+    0.00012234183143540968,
+    9.527991412428687e-05,
+    7.420407173097082e-05,
+    5.779018917116677e-05,
+    4.5007044580349304e-05,
+    3.5051521562905664e-05,
+    2.729815244103517e-05,
+    2.125982249748077e-05,
+    1.6557166408997094e-05,
+    1.2894734164770497e-05,
+    1.0042429065020861e-05,
+    7.821051619777282e-06,
+    6.091041125924427e-06,
+    4.743707598590075e-06,
+    3.6944031924437244e-06,
+    2.8772040992566704e-06,
+    2.240768805557351e-06,
+    1.7451125004500416e-06,
+    1.3590949818981899e-06,
+    1.0584642361707269e-06,
+    8.243327759828386e-07,
+    6.419910114468597e-07,
+    4.999831024396175e-07,
+    3.893872317024446e-07,
+    3.032550809678704e-07,
+    2.3617529452815976e-07,
+    1.839335043206505e-07,
+    1.4324755719799024e-07,
+    1.1156130971886065e-07,
+    8.688403536952022e-08,
+    6.766535478218598e-08,
+    5.269783129117087e-08,
+    4.104111227572866e-08,
+    3.1962850378458925e-08,
+    2.4892692903937962e-08,
+    1.9386448726342888e-08,
+    1.509818144904948e-08,
+    1.1758475535473893e-08,
+    9.157509954753025e-09,
+    7.1318759237458415e-09,
+    5.55431055418136e-09,
+    4.325701409018212e-09
+  ],
+  "wet_gain": 0.75,
+  "wet_reference_mm": 50.0,
+  "blend": 0.85,
+  "floor_to_initial": true,
+  "max_input_gap_h": 1,
+  "test_model": {
+    "base": 0.147,
+    "gain": 0.03710072773922478
+  },
+  "scores": [
+    {
+      "lead_h": 1,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 0.21403041847669782,
+      "hold_mae_cm": 0.21453160270880361
+    },
+    {
+      "lead_h": 2,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 0.36798106338817854,
+      "hold_mae_cm": 0.3692579006772009
+    },
+    {
+      "lead_h": 3,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 0.5119942752994879,
+      "hold_mae_cm": 0.5088882618510159
+    },
+    {
+      "lead_h": 4,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 0.6477497280792188,
+      "hold_mae_cm": 0.6350592550790067
+    },
+    {
+      "lead_h": 5,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 0.7775830270613915,
+      "hold_mae_cm": 0.7520316027088036
+    },
+    {
+      "lead_h": 6,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 0.9037312028349568,
+      "hold_mae_cm": 0.8666196388261851
+    },
+    {
+      "lead_h": 7,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.0270586325801188,
+      "hold_mae_cm": 0.9773984198645598
+    },
+    {
+      "lead_h": 8,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.1435752799499144,
+      "hold_mae_cm": 1.0819272009029346
+    },
+    {
+      "lead_h": 9,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.2536862352696692,
+      "hold_mae_cm": 1.17926072234763
+    },
+    {
+      "lead_h": 10,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.353087016799783,
+      "hold_mae_cm": 1.2696388261851017
+    },
+    {
+      "lead_h": 11,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.4517452602336576,
+      "hold_mae_cm": 1.3592127539503387
+    },
+    {
+      "lead_h": 12,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.5454304616254375,
+      "hold_mae_cm": 1.443651241534989
+    },
+    {
+      "lead_h": 13,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.6353416262472182,
+      "hold_mae_cm": 1.5286117381489843
+    },
+    {
+      "lead_h": 14,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.724706664620121,
+      "hold_mae_cm": 1.6144469525959368
+    },
+    {
+      "lead_h": 15,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.8126700972188836,
+      "hold_mae_cm": 1.6992945823927765
+    },
+    {
+      "lead_h": 16,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.8974292960767112,
+      "hold_mae_cm": 1.7822658013544017
+    },
+    {
+      "lead_h": 17,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 1.9770872219267643,
+      "hold_mae_cm": 1.8620203160270883
+    },
+    {
+      "lead_h": 18,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 2.0514249110670404,
+      "hold_mae_cm": 1.9379937923250565
+    },
+    {
+      "lead_h": 19,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 2.12145454533316,
+      "hold_mae_cm": 2.010665914221219
+    },
+    {
+      "lead_h": 20,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 2.188725149605582,
+      "hold_mae_cm": 2.079867381489842
+    },
+    {
+      "lead_h": 21,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 2.2554079211270825,
+      "hold_mae_cm": 2.147996613995485
+    },
+    {
+      "lead_h": 22,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 2.320536261733431,
+      "hold_mae_cm": 2.2144751693002256
+    },
+    {
+      "lead_h": 23,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 2.3865988800625555,
+      "hold_mae_cm": 2.2790067720090295
+    },
+    {
+      "lead_h": 24,
+      "n": 7088,
+      "dates": 298,
+      "model_mae_cm": 2.452989367735978,
+      "hold_mae_cm": 2.342663656884876
+    }
+  ],
+  "audit": [
+    {
+      "month": "2023-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2023-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2023-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2825,
+        "Suspect": 151
+      }
+    },
+    {
+      "month": "2024-02",
+      "returned": 2784,
+      "quality": {
+        "Suspect": 2784
+      }
+    },
+    {
+      "month": "2024-03",
+      "returned": 2976,
+      "quality": {
+        "Suspect": 2976
+      }
+    },
+    {
+      "month": "2024-04",
+      "returned": 2880,
+      "quality": {
+        "Suspect": 2880
+      }
+    },
+    {
+      "month": "2024-05",
+      "returned": 2976,
+      "quality": {
+        "Suspect": 2976
+      }
+    },
+    {
+      "month": "2024-06",
+      "returned": 2880,
+      "quality": {
+        "Suspect": 516,
+        "Good": 2364
+      }
+    },
+    {
+      "month": "2024-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 319,
+        "Estimated": 2657
+      }
+    },
+    {
+      "month": "2024-08",
+      "returned": 2976,
+      "quality": {
+        "Estimated": 625,
+        "Good": 2351
+      }
+    },
+    {
+      "month": "2024-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2024-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2024-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-01",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-02",
+      "returned": 2688,
+      "quality": {
+        "Good": 2688
+      }
+    },
+    {
+      "month": "2025-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2720,
+        "Estimated": 160
+      }
+    },
+    {
+      "month": "2025-05",
+      "returned": 2976,
+      "quality": {
+        "Estimated": 2634,
+        "Good": 342
+      }
+    },
+    {
+      "month": "2025-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2972,
+        "Missing": 4
+      }
+    },
+    {
+      "month": "2025-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-10",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2025-11",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2025-12",
+      "returned": 2976,
+      "quality": {
+        "Good": 1385,
+        "Estimated": 1591
+      }
+    },
+    {
+      "month": "2026-01",
+      "returned": 2976,
+      "quality": {
+        "Estimated": 2976
+      }
+    },
+    {
+      "month": "2026-02",
+      "returned": 2688,
+      "quality": {
+        "Estimated": 1593,
+        "Good": 1095
+      }
+    },
+    {
+      "month": "2026-03",
+      "returned": 2976,
+      "quality": {
+        "Good": 2973,
+        "Missing": 3
+      }
+    },
+    {
+      "month": "2026-04",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2026-05",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-06",
+      "returned": 2880,
+      "quality": {
+        "Good": 2880
+      }
+    },
+    {
+      "month": "2026-07",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-08",
+      "returned": 2976,
+      "quality": {
+        "Good": 2976
+      }
+    },
+    {
+      "month": "2026-09",
+      "returned": 2880,
+      "quality": {
+        "Good": 2653,
+        "Unchecked": 227
+      }
+    }
+  ],
+  "winter_data_note": "Oct 2023\u2013Sep 2026: 20116 Good hourly readings; flags {'Good': 80463, 'Suspect': 12283, 'Estimated': 12236, 'Missing': 7, 'Unchecked': 227}. Does not improve on hold level at both 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "training": "Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026.",
+  "live_measure": "750605-level-stage-i-15_min-m",
+  "weather_lat": 54.566018,
+  "weather_lon": -3.063667,
+  "replay_start_utc": "2025-10-01T00:00:00Z",
+  "replay_end_utc": "2026-09-29T23:00:00Z",
+  "limitations": "Exploratory retrospective-rain test; not archived weather forecast skill. Limited/benchmark models are labelled. First observed actual retained. No calibrated confidence interval.",
+  "replay_example_utc": "2026-03-08T00:00:00Z"
+}

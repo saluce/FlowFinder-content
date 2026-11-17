@@ -1,7 +1,16 @@
 {
   "format": "flowfinder-content",
   "schema": 1,
-  "entries": [],
+  "entries": [
+    {
+      "id": "release-2-1-19",
+      "kind": "patch",
+      "title": "FlowFinder 2.1.19",
+      "text": "Faster level loading and a tidier Android Auto alphabet. Added early experimental Welsh predictions, model source/version labels and optional GitHub highlighting.",
+      "minVersionCode": 242,
+      "maxVersionCode": 242
+    }
+  ],
   "sectionShortNames": {
     "lune-beck": "Beck → Rawt",
     "leven": "Newby → Wood"

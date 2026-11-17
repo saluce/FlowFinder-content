@@ -1,0 +1,631 @@
+[
+  {
+    "gauge": "742006",
+    "label": "Esk (Lakes) \u00b7 Cropple How",
+    "name": "Cropple How",
+    "lat": 54.36799,
+    "lon": -3.339036,
+    "live_measure": "742006-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "722421",
+    "label": "Lune \u00b7 Lowgill\u2013Rawthey (Killington)",
+    "name": "Killington",
+    "lat": 54.310113,
+    "lon": -2.582471,
+    "live_measure": "722421-level-stage-i-15_min-m",
+    "weather_lat": 54.46,
+    "weather_lon": -2.58,
+    "station_coordinate_source": "https://environment.data.gov.uk/flood-monitoring/id/stations/722421",
+    "weather_coordinate_basis": "Existing upstream model-training weather sample, retained separately from the station location"
+  },
+  {
+    "gauge": "751613",
+    "label": "Cocker \u00b7 Southwaite Bridge",
+    "name": "Southwaite Bridge",
+    "lat": 54.640384,
+    "lon": -3.348254,
+    "live_measure": "751613-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "761659",
+    "label": "Eamont \u00b7 Eamont Bridge Farm",
+    "name": "Eamont Bridge Farm",
+    "lat": 54.651055,
+    "lon": -2.743236,
+    "live_measure": "761659-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "762505",
+    "label": "Eden (Lakes) \u00b7 Great Corby",
+    "name": "Great Corby",
+    "lat": 54.889932,
+    "lon": -2.830506,
+    "live_measure": "762505-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "744130",
+    "label": "Ehen \u00b7 Egremont",
+    "name": "Egremont",
+    "lat": 54.483086,
+    "lon": -3.523489,
+    "live_measure": "744130-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "730511",
+    "label": "Kent \u00b7 Sedgwick",
+    "name": "Sedgwick",
+    "lat": 54.280023,
+    "lon": -2.755861,
+    "live_measure": "730511-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "761104",
+    "label": "Lowther \u00b7 Eamont Bridge",
+    "name": "Eamont Bridge",
+    "lat": 54.649886,
+    "lon": -2.737481,
+    "live_measure": "761104-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "735022",
+    "label": "Rothay \u00b7 Miller Bridge House",
+    "name": "Miller Bridge House",
+    "lat": 54.429259,
+    "lon": -2.970683,
+    "live_measure": "735022-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "730203",
+    "label": "Sprint \u00b7 Sprint Mill",
+    "name": "Sprint Mill",
+    "lat": 54.358126,
+    "lon": -2.748154,
+    "live_measure": "730203-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "735328",
+    "label": "Troutbeck (South) \u00b7 Calgarth (Trout Beck Bridge)",
+    "name": "Calgarth (Trout Beck Bridge)",
+    "lat": 54.390814,
+    "lon": -2.931474,
+    "live_measure": "735328-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "735123",
+    "label": "Brathay \u00b7 Jeffy Knotts",
+    "name": "Jeffy Knotts",
+    "lat": 54.422024,
+    "lon": -2.98839,
+    "live_measure": "735123-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "743509",
+    "label": "Calder \u00b7 Calder Hall",
+    "name": "Calder Hall",
+    "lat": 54.426631,
+    "lon": -3.489083,
+    "live_measure": "743509-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "765052",
+    "label": "Caldew \u00b7 Sebergham",
+    "name": "Sebergham",
+    "lat": 54.774171,
+    "lon": -2.993538,
+    "live_measure": "765052-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "737537",
+    "label": "Crake \u00b7 Low Nibthwaite",
+    "name": "Low Nibthwaite",
+    "lat": 54.284708,
+    "lon": -3.085099,
+    "live_measure": "737537-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "740101",
+    "label": "Duddon \u00b7 Ulpha",
+    "name": "Ulpha",
+    "lat": 54.341859,
+    "lon": -3.218047,
+    "live_measure": "740101-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "735430",
+    "label": "Leven \u00b7 Newby Bridge",
+    "name": "Newby Bridge",
+    "lat": 54.268069,
+    "lon": -2.974952,
+    "live_measure": "735430-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "730404",
+    "label": "Mint \u00b7 Mint Bridge",
+    "name": "Mint Bridge",
+    "lat": 54.343531,
+    "lon": -2.733522,
+    "live_measure": "730404-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "730120",
+    "label": "Kent \u00b7 Bowston",
+    "name": "Bowston",
+    "lat": 54.36176,
+    "lon": -2.771951,
+    "live_measure": "730120-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "751007",
+    "label": "Derwent \u00b7 Portinscale",
+    "name": "Portinscale",
+    "lat": 54.604609,
+    "lon": -3.159636,
+    "live_measure": "751007-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "750504",
+    "label": "Glenderamackin \u00b7 Threlkeld",
+    "name": "Threlkeld",
+    "lat": 54.61374,
+    "lon": -3.050402,
+    "live_measure": "750504-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "750605",
+    "label": "St John\u2019s Beck \u00b7 Thirlmere St Johns [limited]",
+    "name": "Thirlmere St Johns",
+    "lat": 54.566018,
+    "lon": -3.063667,
+    "live_measure": "750605-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "743008",
+    "label": "Irt \u00b7 Galesyke",
+    "name": "Galesyke",
+    "lat": 54.422403,
+    "lon": -3.334074,
+    "live_measure": "743008-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "735226",
+    "label": "Cunsey Beck \u00b7 Eel House Bridge",
+    "name": "Eel House Bridge",
+    "lat": 54.338025,
+    "lon": -2.970931,
+    "live_measure": "735226-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "730100",
+    "label": "Gowan \u00b7 Staveley Village",
+    "name": "Staveley Village",
+    "lat": 54.377665,
+    "lon": -2.817419,
+    "live_measure": "730100-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "737526",
+    "label": "Church Beck \u00b7 Coniston Church Bridge [limited]",
+    "name": "Coniston Church Bridge",
+    "lat": 54.368852,
+    "lon": -3.075834,
+    "live_measure": "737526-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "735019",
+    "label": "Stock Ghyll \u00b7 Ambleside",
+    "name": "Ambleside Rydal Road",
+    "lat": 54.433747,
+    "lon": -2.965717,
+    "live_measure": "735019-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "761515",
+    "label": "Red Tarn Beck \u00b7 Glenridding",
+    "name": "Glenridding Village",
+    "lat": 54.543667,
+    "lon": -2.95035,
+    "live_measure": "761515-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "754016",
+    "label": "Ellen \u00b7 Bullgill",
+    "name": "Bullgill",
+    "lat": 54.732405,
+    "lon": -3.405386,
+    "live_measure": "754016-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "731013",
+    "label": "Bela \u00b7 Beetham",
+    "name": "Beetham",
+    "lat": 54.218397,
+    "lon": -2.774074,
+    "live_measure": "731013-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "761706",
+    "label": "Dacre Beck \u00b7 Dacre Bridge",
+    "name": "Dacre Bridge",
+    "lat": 54.628797,
+    "lon": -2.837846,
+    "live_measure": "761706-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "765005",
+    "label": "Gill Beck \u00b7 Caldbeck [limited]",
+    "name": "Caldbeck Gill Beck Bridge",
+    "lat": 54.749088,
+    "lon": -3.05221,
+    "live_measure": "765005-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "750917",
+    "label": "Greta \u00b7 Keswick Campsite (substitute reference)",
+    "name": "Keswick Campsite",
+    "lat": 54.601275,
+    "lon": -3.1492,
+    "live_measure": "750917-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L2309",
+    "label": "Swale \u00b7 Grinton Bridge",
+    "name": "Grinton Bridge",
+    "lat": 54.38204,
+    "lon": -1.929704,
+    "live_measure": "L2309-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2306",
+    "label": "Swale \u00b7 Catterick Bridge",
+    "name": "Catterick Bridge",
+    "lat": 54.388806,
+    "lon": -1.653202,
+    "live_measure": "F2306-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L2208",
+    "label": "Ure \u00b7 Bainbridge",
+    "name": "Bainbridge",
+    "lat": 54.312105,
+    "lon": -2.102801,
+    "live_measure": "L2208-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L2205",
+    "label": "Ure \u00b7 Masham",
+    "name": "Masham",
+    "lat": 54.225945,
+    "lon": -1.654967,
+    "live_measure": "L2205-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L2203",
+    "label": "Ure \u00b7 Ripon Ure Bank",
+    "name": "Ripon Ure Bank",
+    "lat": 54.143859,
+    "lon": -1.515258,
+    "live_measure": "L2203-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L1907",
+    "label": "Wharfe \u00b7 Kettlewell",
+    "name": "Kettlewell",
+    "lat": 54.144095,
+    "lon": -2.049831,
+    "live_measure": "L1907-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F1903",
+    "label": "Wharfe \u00b7 Addingham",
+    "name": "Addingham",
+    "lat": 53.939703,
+    "lon": -1.862157,
+    "live_measure": "F1903-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L2008",
+    "label": "Wharfe \u00b7 Pool Bridge",
+    "name": "Pool Bridge",
+    "lat": 53.905024,
+    "lon": -1.630278,
+    "live_measure": "L2008-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2106",
+    "label": "Nidd \u00b7 Birstwith",
+    "name": "Birstwith",
+    "lat": 54.0383,
+    "lon": -1.650184,
+    "live_measure": "F2106-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F1707",
+    "label": "Aire \u00b7 Armley",
+    "name": "Armley",
+    "lat": 53.801967,
+    "lon": -1.575189,
+    "live_measure": "F1707-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L1203",
+    "label": "Calder (Yorkshire) \u00b7 Copley Bridge",
+    "name": "Copley Bridge",
+    "lat": 53.69778,
+    "lon": -1.873503,
+    "live_measure": "L1203-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L0509",
+    "label": "Don \u00b7 Penistone",
+    "name": "Penistone",
+    "lat": 53.527445,
+    "lon": -1.645761,
+    "live_measure": "L0509-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L0607",
+    "label": "Don \u00b7 Sheffield Lady\u2019s Bridge",
+    "name": "Sheffield Lady's Bridge",
+    "lat": 53.385355,
+    "lon": -1.462585,
+    "live_measure": "L0607-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L2905",
+    "label": "Esk (Yorkshire) \u00b7 Lealholm",
+    "name": "Lealholm",
+    "lat": 54.45815,
+    "lon": -0.824975,
+    "live_measure": "L2905-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2807",
+    "label": "Derwent (Yorkshire) \u00b7 Buttercrambe [benchmark]",
+    "name": "Buttercrambe",
+    "lat": 54.01923,
+    "lon": -0.88561,
+    "live_measure": "F2807-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L2200",
+    "label": "Ouse (Yorkshire) \u00b7 Aldwark Bridge",
+    "name": "Aldwark Bridge",
+    "lat": 54.053556,
+    "lon": -1.288344,
+    "live_measure": "L2200-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2508",
+    "label": "Rye \u00b7 Broadway Foot Hawnby",
+    "name": "Broadway Foot Hawnby",
+    "lat": 54.28784,
+    "lon": -1.141294,
+    "live_measure": "F2508-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F3523",
+    "label": "Greta (Tees) \u00b7 Rutherford Bridge",
+    "name": "Rutherford Bridge",
+    "lat": 54.505171,
+    "lon": -1.9496,
+    "live_measure": "F3523-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F3505",
+    "label": "Tees \u00b7 Middleton",
+    "name": "Middleton",
+    "lat": 54.620275,
+    "lon": -2.080783,
+    "live_measure": "F3505-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F3504",
+    "label": "Tees \u00b7 Barnard Castle",
+    "name": "Barnard Castle",
+    "lat": 54.544991,
+    "lon": -1.929905,
+    "live_measure": "F3504-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F3501",
+    "label": "Tees \u00b7 Broken Scar",
+    "name": "Broken Scar",
+    "lat": 54.518355,
+    "lon": -1.601051,
+    "live_measure": "F3501-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F3606",
+    "label": "Tees \u00b7 Low Moor",
+    "name": "Low Moor",
+    "lat": 54.488963,
+    "lon": -1.438958,
+    "live_measure": "F3606-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L2351",
+    "label": "Arkle Beck \u00b7 Reeth [limited]",
+    "name": "Reeth",
+    "lat": 54.387346,
+    "lon": -1.936039,
+    "live_measure": "L2351-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "L1231",
+    "label": "Hebden Water \u00b7 Nutclough",
+    "name": "Nutclough",
+    "lat": 53.744646,
+    "lon": -2.011175,
+    "live_measure": "L1231-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F1003",
+    "label": "Holme \u00b7 Huddersfield Queens Mill",
+    "name": "Huddersfield Queens Mill",
+    "lat": 53.6381,
+    "lon": -1.786263,
+    "live_measure": "F1003-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "710151",
+    "label": "Ribble \u00b7 Locks Weir",
+    "name": "Locks Weir",
+    "lat": 54.084335,
+    "lon": -2.280213,
+    "live_measure": "710151-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "724326",
+    "label": "Wenning \u00b7 Wennington",
+    "name": "Wennington",
+    "lat": 54.125423,
+    "lon": -2.591307,
+    "live_measure": "724326-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2603",
+    "label": "Sea Cut \u00b7 Scarborough",
+    "name": "Scarborough",
+    "lat": 54.301909,
+    "lon": -0.423099,
+    "live_measure": "F2603-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F0806",
+    "label": "Dearne \u00b7 Barnsley",
+    "name": "Barnsley",
+    "lat": 53.560958,
+    "lon": -1.473527,
+    "live_measure": "F0806-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F0304",
+    "label": "Rother \u00b7 Woodhouse Mill",
+    "name": "Woodhouse Mill",
+    "lat": 53.366838,
+    "lon": -1.352044,
+    "live_measure": "F0304-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F1102",
+    "label": "Colne \u00b7 Colne Bridge",
+    "name": "Colne Bridge",
+    "lat": 53.675459,
+    "lon": -1.738209,
+    "live_measure": "F1102-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F1403",
+    "label": "Worth \u00b7 Keighley",
+    "name": "Keighley",
+    "lat": 53.86396,
+    "lon": -1.904632,
+    "live_measure": "F1403-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2540",
+    "label": "Seven \u00b7 Normanby",
+    "name": "Normanby",
+    "lat": 54.229788,
+    "lon": -0.872752,
+    "live_measure": "F2540-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2560",
+    "label": "Dove (North Yorkshire) \u00b7 Kirkby Mills",
+    "name": "Kirkby Mills",
+    "lat": 54.260606,
+    "lon": -0.919703,
+    "live_measure": "F2560-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F3808",
+    "label": "Leven (Yorkshire) \u00b7 Easby",
+    "name": "Easby",
+    "lat": 54.470167,
+    "lon": -1.099385,
+    "live_measure": "F3808-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F3102",
+    "label": "Hull \u00b7 Hempholme Weir (mAOD)",
+    "name": "Hempholme Weir",
+    "lat": 53.934077,
+    "lon": -0.357103,
+    "live_measure": "F3102-level-2-i-15_min-mAOD",
+    "stage_unit": "mAOD"
+  },
+  {
+    "gauge": "F2470",
+    "label": "Foss \u00b7 Huntington",
+    "name": "Huntington",
+    "lat": 53.981457,
+    "lon": -1.067671,
+    "live_measure": "F2470-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2313",
+    "label": "Cod Beck \u00b7 Dalton",
+    "name": "Dalton",
+    "lat": 54.183461,
+    "lon": -1.354886,
+    "live_measure": "F2313-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2515",
+    "label": "Pickering Beck \u00b7 Pickering Ings Bridge [benchmark]",
+    "name": "Pickering Ings Bridge",
+    "lat": 54.227169,
+    "lon": -0.788071,
+    "live_measure": "F2515-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2581",
+    "label": "Riccal \u00b7 Nunnington",
+    "name": "Nunnington",
+    "lat": 54.215889,
+    "lon": -0.969759,
+    "live_measure": "F2581-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F1240",
+    "label": "Ryburn \u00b7 Ripponden",
+    "name": "Ripponden",
+    "lat": 53.666898,
+    "lon": -1.947786,
+    "live_measure": "F1240-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2570",
+    "label": "Hodge Beck \u00b7 Cherrytree Farm",
+    "name": "Cherrytree Farm",
+    "lat": 54.30374,
+    "lon": -1.000286,
+    "live_measure": "F2570-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F2330",
+    "label": "Bedale Beck \u00b7 Leeming [benchmark]",
+    "name": "Leeming",
+    "lat": 54.306916,
+    "lon": -1.530896,
+    "live_measure": "F2330-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F0402",
+    "label": "Sheaf \u00b7 Highfield",
+    "name": "Highfield",
+    "lat": 53.372966,
+    "lon": -1.464048,
+    "live_measure": "F0402-level-stage-i-15_min-m"
+  },
+  {
+    "gauge": "F1503",
+    "label": "Aire \u00b7 Kildwick (substitute reference for upper Aire)",
+    "name": "Kildwick",
+    "lat": 53.9073,
+    "lon": -1.984643,
+    "live_measure": "F1503-level-stage-i-15_min-m"
+  }
+]

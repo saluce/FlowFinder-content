@@ -1,0 +1,312 @@
+{
+  "schema": 2,
+  "gauge": "L2200",
+  "label": "Ouse (Yorkshire) \u00b7 Aldwark Bridge",
+  "station": "Ouse (Yorkshire) \u00b7 Aldwark Bridge",
+  "model_id": "yorkshire-0.4.0-L2200",
+  "family": "reservoir",
+  "evidence_status": "screened",
+  "profile_notice": "Average-error screening does not establish storm-peak skill: rapid peaks can be substantially underestimated or mistimed. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "base": 0.1,
+  "gain": 0.09366283206631816,
+  "k": 0.02,
+  "momentum": 0.85,
+  "lag": 6,
+  "tau": 12,
+  "kernel_hours": 72,
+  "kernel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.08028368644742469,
+    0.07386455730180498,
+    0.06795867338459327,
+    0.06252499787311348,
+    0.05752577506786838,
+    0.05292626804841508,
+    0.04869451730511871,
+    0.044801118669645396,
+    0.04121901900115274,
+    0.03792332820851052,
+    0.03489114630239477,
+    0.032101404275532874,
+    0.029534717705461896,
+    0.027173252062563998,
+    0.025000598787476742,
+    0.02300166127680661,
+    0.021162549984921508,
+    0.019470485912940903,
+    0.017913711814320197,
+    0.01648141050004462,
+    0.015163629675779132,
+    0.013951212788708048,
+    0.012835735403556023,
+    0.01180944666570158,
+    0.010865215444641625,
+    0.009996480783586784,
+    0.009197206310888384,
+    0.008461838296526419,
+    0.007785267062215639,
+    0.00716279147698914,
+    0.006590086291558378,
+    0.006063172084473555,
+    0.0055783876112563266,
+    0.005132364364373795,
+    0.004722003167284687,
+    0.004344452639922251,
+    0.003997089385982085,
+    0.0036774997643469684,
+    0.0033834631179880813,
+    0.0031129363438092486,
+    0.0028640396962183257,
+    0.002635043725782335,
+    0.002424357262210079,
+    0.0022305163581624204,
+    0.0020521741170666744,
+    0.0018880913342540567,
+    0.0017371278863904712,
+    0.0015982348093703952,
+    0.0014704470096273928,
+    0.0013528765582160739,
+    0.0012447065210696407,
+    0.0011451852825628192,
+    0.0010536213229376255,
+    0.0009693784133031203,
+    0.0008918711948217717,
+    0.0008205611113645523,
+    0.000754952667372986,
+    0.0006945899849260253,
+    0.0006390536360886555,
+    0.0005879577285319273,
+    0.0005409472241739438,
+    0.0004976954722104736,
+    0.0004579019393935495,
+    0.00042129012178697027,
+    0.00038760562348860944,
+    0.00035661438896961135
+  ],
+  "wet_gain": 0.75,
+  "wet_reference_mm": 50.0,
+  "blend": 0.0,
+  "floor_to_initial": true,
+  "max_input_gap_h": 1,
+  "test_model": {
+    "base": 0.108,
+    "gain": 0.10137192231885324
+  },
+  "scores": [
+    {
+      "lead_h": 1,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 0.6539292991536924,
+      "hold_mae_cm": 1.2212842619997426
+    },
+    {
+      "lead_h": 2,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 1.2698367964548187,
+      "hold_mae_cm": 2.280607386436752
+    },
+    {
+      "lead_h": 3,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 1.9779241096633637,
+      "hold_mae_cm": 3.302419251061639
+    },
+    {
+      "lead_h": 4,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 2.76100780001076,
+      "hold_mae_cm": 4.305198816111183
+    },
+    {
+      "lead_h": 5,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 3.593513020570665,
+      "hold_mae_cm": 5.290181443829623
+    },
+    {
+      "lead_h": 6,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 4.448541796780163,
+      "hold_mae_cm": 6.246892291854331
+    },
+    {
+      "lead_h": 7,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 5.320094170355701,
+      "hold_mae_cm": 7.188289795393128
+    },
+    {
+      "lead_h": 8,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 6.176301555096625,
+      "hold_mae_cm": 8.095933599279372
+    },
+    {
+      "lead_h": 9,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 7.025650887689321,
+      "hold_mae_cm": 8.979976836957922
+    },
+    {
+      "lead_h": 10,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 7.850133172226855,
+      "hold_mae_cm": 9.84357225582293
+    },
+    {
+      "lead_h": 11,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 8.653734811590018,
+      "hold_mae_cm": 10.68009265216832
+    },
+    {
+      "lead_h": 12,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 9.42748433102563,
+      "hold_mae_cm": 11.492278985973492
+    },
+    {
+      "lead_h": 13,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 10.191472870966173,
+      "hold_mae_cm": 12.285111311285547
+    },
+    {
+      "lead_h": 14,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 10.933682344529819,
+      "hold_mae_cm": 13.052335606743018
+    },
+    {
+      "lead_h": 15,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 11.65264038735485,
+      "hold_mae_cm": 13.804413846351821
+    },
+    {
+      "lead_h": 16,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 12.339042126456254,
+      "hold_mae_cm": 14.536533264702097
+    },
+    {
+      "lead_h": 17,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 13.013383020186522,
+      "hold_mae_cm": 15.253622442414102
+    },
+    {
+      "lead_h": 18,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 13.655655790536223,
+      "hold_mae_cm": 15.961472140007722
+    },
+    {
+      "lead_h": 19,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 14.29460698472727,
+      "hold_mae_cm": 16.661073220949685
+    },
+    {
+      "lead_h": 20,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 14.911497327527268,
+      "hold_mae_cm": 17.34101145283747
+    },
+    {
+      "lead_h": 21,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 15.506765604318149,
+      "hold_mae_cm": 18.013717668253765
+    },
+    {
+      "lead_h": 22,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 16.076854287922295,
+      "hold_mae_cm": 18.673568395315918
+    },
+    {
+      "lead_h": 23,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 16.63539302141297,
+      "hold_mae_cm": 19.323304594003346
+    },
+    {
+      "lead_h": 24,
+      "n": 7771,
+      "dates": 325,
+      "model_mae_cm": 17.17226261609301,
+      "hold_mae_cm": 19.96359541886501
+    }
+  ],
+  "audit": [
+    {
+      "month": "2023-water",
+      "returned": 35131,
+      "quality": {
+        "Good": 23130,
+        "Unchecked": 12001
+      }
+    },
+    {
+      "month": "2024-water",
+      "returned": 35040,
+      "quality": {
+        "Good": 21160,
+        "Unchecked": 13880
+      }
+    },
+    {
+      "month": "2025-water",
+      "returned": 35040,
+      "quality": {
+        "Unchecked": 3846,
+        "Good": 31194
+      }
+    }
+  ],
+  "winter_data_note": "Oct 2023\u2013Sep 2026: 18871 Good hourly readings; flags {'Good': 75484, 'Unchecked': 29727}. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "training": "Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026.",
+  "live_measure": "L2200-level-stage-i-15_min-m",
+  "weather_lat": 54.053556,
+  "weather_lon": -1.288344,
+  "replay_start_utc": "2025-10-01T00:00:00Z",
+  "replay_end_utc": "2026-09-29T23:00:00Z",
+  "limitations": "Exploratory retrospective-rain test; not archived weather forecast skill. Limited/benchmark models are labelled. First observed actual retained. No calibrated confidence interval.",
+  "replay_example_utc": "2026-02-23T04:00:00Z",
+  "storm_diagnostics": {
+    "windows": 12,
+    "median_absolute_maximum_error_cm": 3.094302763153922,
+    "maximum_absolute_maximum_error_cm": 56.558093775618005,
+    "underprediction_over_50cm": 0,
+    "note": "Hindsight-selected observed events; known retrospective rainfall; maxima include boundary flags in research CSV. Not independent operational peak skill."
+  }
+}

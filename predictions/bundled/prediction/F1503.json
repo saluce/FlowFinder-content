@@ -1,0 +1,312 @@
+{
+  "schema": 2,
+  "gauge": "F1503",
+  "label": "Aire \u00b7 Kildwick (substitute reference for upper Aire)",
+  "station": "Aire \u00b7 Kildwick (substitute reference for upper Aire)",
+  "model_id": "yorkshire-0.4.0-F1503",
+  "family": "reservoir",
+  "evidence_status": "screened",
+  "profile_notice": "Average-error screening does not establish storm-peak skill: rapid peaks can be substantially underestimated or mistimed. SUBSTITUTE REFERENCE: Kildwick is used for the upper Aire because Gargrave returned no historical observations. Predicts Kildwick metres only; no conversion to Gargrave or tributary stages. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "base": 0.162,
+  "gain": 0.11696243487452655,
+  "k": 0.08,
+  "momentum": 0.95,
+  "lag": 3,
+  "tau": 12,
+  "kernel_hours": 72,
+  "kernel": [
+    0.0,
+    0.0,
+    0.0,
+    0.08021087901608029,
+    0.07379757123125306,
+    0.06789704322452401,
+    0.06246829538856905,
+    0.05747360626366767,
+    0.052878270431492326,
+    0.048650357365753405,
+    0.044760489564081976,
+    0.041181638419507734,
+    0.03788893641315244,
+    0.034859504323166486,
+    0.032072292249276074,
+    0.02950793334830579,
+    0.027148609264363084,
+    0.024977926318631157,
+    0.02298080159847937,
+    0.021143358154385568,
+    0.019452828576449796,
+    0.017897466280504325,
+    0.016466463887394655,
+    0.015149878128292904,
+    0.013938560754250835,
+    0.012824094969919965,
+    0.011798736949750862,
+    0.010855362030298901,
+    0.009987415204755731,
+    0.009188865575719492,
+    0.008454164449720379,
+    0.00777820678232302,
+    0.0071562957059082164,
+    0.006584109893656664,
+    0.00605767353296448,
+    0.005573328699651851,
+    0.005127709941007994,
+    0.004717720891063661,
+    0.004340512755603197,
+    0.003993464517420053,
+    0.0036741647242727053,
+    0.0033803947329951907,
+    0.003110113293334607,
+    0.002861442364396915,
+    0.002632654065147107,
+    0.002422158668289778,
+    0.0022284935541060096,
+    0.002050313047492684,
+    0.00188637906758727,
+    0.0017355525250073384,
+    0.0015967854069288212,
+    0.0014691134950064726,
+    0.0013516496655372697,
+    0.0012435777253131572,
+    0.0011441467403318093,
+    0.0010526658179586283,
+    0.0009684993062840433,
+    0.0008910623773190084,
+    0.0008198169633386805,
+    0.0007542680181381253,
+    0.0006939600772215114,
+    0.0006384740930233855,
+    0.0005874245231716885,
+    0.0005404566515604057,
+    0.0004972441236174177,
+    0.0004574866786414577,
+    0.0004209080634513934,
+    0.0003872541128508994,
+    0.0003562909835707034,
+    0.0003278035294170137,
+    0.00030159380633590257,
+    0.0002774796970061448
+  ],
+  "wet_gain": 0.75,
+  "wet_reference_mm": 50.0,
+  "blend": 0.5,
+  "floor_to_initial": true,
+  "max_input_gap_h": 1,
+  "test_model": {
+    "base": 0.235,
+    "gain": 0.1223097203379939
+  },
+  "scores": [
+    {
+      "lead_h": 1,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 0.4192864979523573,
+      "hold_mae_cm": 0.6797537265068049
+    },
+    {
+      "lead_h": 2,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 0.825376687957702,
+      "hold_mae_cm": 1.3211017498379778
+    },
+    {
+      "lead_h": 3,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 1.2499010231481722,
+      "hold_mae_cm": 1.9510174983797794
+    },
+    {
+      "lead_h": 4,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 1.6873204979957022,
+      "hold_mae_cm": 2.565573558003888
+    },
+    {
+      "lead_h": 5,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 2.1221803267237718,
+      "hold_mae_cm": 3.158664938431626
+    },
+    {
+      "lead_h": 6,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 2.5427293512410802,
+      "hold_mae_cm": 3.7276863253402466
+    },
+    {
+      "lead_h": 7,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 2.9414869930427767,
+      "hold_mae_cm": 4.273687621516527
+    },
+    {
+      "lead_h": 8,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 3.3140631858518317,
+      "hold_mae_cm": 4.793039533376539
+    },
+    {
+      "lead_h": 9,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 3.659676480539828,
+      "hold_mae_cm": 5.288139987038236
+    },
+    {
+      "lead_h": 10,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 3.977276730889201,
+      "hold_mae_cm": 5.758250162022035
+    },
+    {
+      "lead_h": 11,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 4.274930587736668,
+      "hold_mae_cm": 6.20392741412832
+    },
+    {
+      "lead_h": 12,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 4.553182487192419,
+      "hold_mae_cm": 6.629500972132209
+    },
+    {
+      "lead_h": 13,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 4.8191887258474235,
+      "hold_mae_cm": 7.034322747893714
+    },
+    {
+      "lead_h": 14,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 5.072849276154165,
+      "hold_mae_cm": 7.422216461438756
+    },
+    {
+      "lead_h": 15,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 5.308985153052826,
+      "hold_mae_cm": 7.790174983797797
+    },
+    {
+      "lead_h": 16,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 5.529080407461251,
+      "hold_mae_cm": 8.141127673363577
+    },
+    {
+      "lead_h": 17,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 5.7340871256541135,
+      "hold_mae_cm": 8.478029812054439
+    },
+    {
+      "lead_h": 18,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 5.9258269212882695,
+      "hold_mae_cm": 8.797589112119248
+    },
+    {
+      "lead_h": 19,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 6.103278545379835,
+      "hold_mae_cm": 9.108373298768631
+    },
+    {
+      "lead_h": 20,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 6.268459095661423,
+      "hold_mae_cm": 9.413882047958522
+    },
+    {
+      "lead_h": 21,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 6.425491488761742,
+      "hold_mae_cm": 9.71390797148412
+    },
+    {
+      "lead_h": 22,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 6.576426676108148,
+      "hold_mae_cm": 10.003784834737525
+    },
+    {
+      "lead_h": 23,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 6.724266719287036,
+      "hold_mae_cm": 10.28557355800389
+    },
+    {
+      "lead_h": 24,
+      "n": 7715,
+      "dates": 322,
+      "model_mae_cm": 6.866862611015416,
+      "hold_mae_cm": 10.562022034996758
+    }
+  ],
+  "audit": [
+    {
+      "month": "2023-water",
+      "returned": 35127,
+      "quality": {
+        "Good": 26115,
+        "Unchecked": 9012
+      }
+    },
+    {
+      "month": "2024-water",
+      "returned": 35040,
+      "quality": {
+        "Good": 35040
+      }
+    },
+    {
+      "month": "2025-water",
+      "returned": 35040,
+      "quality": {
+        "Good": 30956,
+        "Unchecked": 4084
+      }
+    }
+  ],
+  "winter_data_note": "Oct 2023\u2013Sep 2026: 23028 Good hourly readings; flags {'Good': 92111, 'Unchecked': 13096}. Test improves on hold level at 6h and 12h. Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026. Good-only targets; missing trend inputs may be carried forward at most one hour, flagged on captures. No filled actuals.",
+  "training": "Fit Oct 2023\u2013Sep 2024; select Oct 2024\u2013Sep 2025; test Oct 2025\u2013Sep 2026.",
+  "live_measure": "F1503-level-stage-i-15_min-m",
+  "weather_lat": 53.9073,
+  "weather_lon": -1.984643,
+  "replay_start_utc": "2025-10-01T00:00:00Z",
+  "replay_end_utc": "2026-09-29T23:00:00Z",
+  "limitations": "Exploratory retrospective-rain test; not archived weather forecast skill. Limited/benchmark models are labelled. First observed actual retained. No calibrated confidence interval.",
+  "replay_example_utc": "2026-01-25T23:00:00Z",
+  "reference_notice": "SUBSTITUTE REFERENCE: Kildwick is used for the upper Aire because Gargrave returned no historical observations. Predicts Kildwick metres only; no conversion to Gargrave or tributary stages. ",
+  "storm_diagnostics": {
+    "windows": 12,
+    "median_absolute_maximum_error_cm": 24.944094396485493,
+    "maximum_absolute_maximum_error_cm": 75.52070401603035,
+    "underprediction_over_50cm": 3,
+    "note": "Hindsight-selected observed events; known retrospective rainfall; maxima include boundary flags in research CSV. Not independent operational peak skill."
+  }
+}
