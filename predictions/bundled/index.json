@@ -1,8 +1,8 @@
 {
   "format": "flowfinder-public-prediction-snapshot",
   "schema": 1,
-  "appVersion": "2.1.19",
-  "versionCode": 242,
+  "appVersion": "2.1.19a",
+  "versionCode": 243,
   "purpose": "Inspection snapshot, not a downloadable coefficient installer",
   "files": {
     "prediction/710151.json": {
@@ -322,8 +322,8 @@
       "bytes": 7201
     },
     "prediction/research-b.json": {
-      "sha256": "d2a0f91e5067b729cc9de3bf334d48dfb5c35d6b171e04bb8fc586e080938e59",
-      "bytes": 33607
+      "sha256": "d0fb90cf30d4fa57684d0fd38b143538e361b77d18601dd9d6a535e28da5ae1d",
+      "bytes": 34946
     },
     "prediction/rivers.json": {
       "sha256": "d8b604f1abc7c850a0cba13238a52081c53dbf175f00647e649c51346afc58db",

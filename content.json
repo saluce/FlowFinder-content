@@ -3,6 +3,14 @@
   "schema": 1,
   "entries": [
     {
+      "id": "release-2-1-19a",
+      "kind": "patch",
+      "title": "FlowFinder 2.1.19a",
+      "text": "Faster graphs and current levels. Added named access points and Android Auto search shortcuts. Updated experimental predictions and rain indicators.",
+      "minVersionCode": 243,
+      "maxVersionCode": 243
+    },
+    {
       "id": "release-2-1-19",
       "kind": "patch",
       "title": "FlowFinder 2.1.19",

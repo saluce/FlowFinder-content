@@ -1,6 +1,6 @@
 # FlowFinder GitHub experiments
 
-Public files used by the app's optional GitHub features. Checked 17 November 2026.
+Public files used by the app's optional GitHub features. Checked 20 November 2026.
 
 | Feature | File to view/edit | What the app can use |
 | --- | --- | --- |
