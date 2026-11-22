@@ -4,7 +4,7 @@
   "engine": "phone-b-portfolio-1",
   "shortlist": {
     "schema": 1,
-    "asOf": "2026-11-21T03:00:10.282957+00:00",
+    "asOf": "2026-11-22T02:15:07.397457+00:00",
     "suite": "shadow-2",
     "sourceVersion": "0.10.9-web.1",
     "selection": "B only: best portable candidate by matched daily-weighted 1/3/6/12h error reduction; >=48 issues, >=3 UTC dates, >=1 wet forecast date, >=80% coverage, >5% improvement. This is a relaxed experimental shortlist, not the Lab automatic promotion rule or proof of future skill. Fallback: original phase-response hypothesis. No outcome-dependent selection occurs on phone.",
@@ -14,12 +14,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-742006",
         "modelSha256": "56167ec3edbdd85dc65385a4ce92f50c11990c289716c4d2293d0f47364ec30e",
-        "improvement_pct": 11.784873253395947,
-        "matched_issues": 738,
-        "utc_days": 26,
+        "improvement_pct": 11.629380151323247,
+        "matched_issues": 786,
+        "utc_days": 27,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T00:56:11.342890Z",
+        "evidenceAsOf": "2026-11-22T01:05:22.929172Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "722421": {
@@ -27,12 +27,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lune-0.2.2-722421",
         "modelSha256": "e65712c81ada67bfae70608c69934bfe441cc75159bc67fb1e7b934a74a6a032",
-        "improvement_pct": 12.803718864911426,
-        "matched_issues": 738,
-        "utc_days": 26,
+        "improvement_pct": 12.541785014526138,
+        "matched_issues": 786,
+        "utc_days": 27,
         "wet_days": 13,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T00:57:36.578763Z",
+        "evidenceAsOf": "2026-11-22T01:05:51.274753Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "751613": {
@@ -40,12 +40,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-751613",
         "modelSha256": "6fdac163d422f568ba19f91800fd4fe6ad25e1824d516e12e714712ea42e3ddd",
-        "improvement_pct": 16.2455891314701,
-        "matched_issues": 736,
-        "utc_days": 27,
+        "improvement_pct": 16.102343554151073,
+        "matched_issues": 783,
+        "utc_days": 28,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T00:53:00.396950Z",
+        "evidenceAsOf": "2026-11-22T01:00:07.988751Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "761659": {
@@ -53,12 +53,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-761659",
         "modelSha256": "4e25f68f990d6eb11e59fd78ee3ad08636e7f659a1dd40e808f92df9917e437c",
-        "improvement_pct": 14.826786711313474,
-        "matched_issues": 705,
-        "utc_days": 27,
+        "improvement_pct": 14.802366656854257,
+        "matched_issues": 729,
+        "utc_days": 28,
         "wet_days": 10,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:16:33.993826Z",
+        "evidenceAsOf": "2026-11-22T01:20:30.092084Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "762505": {
@@ -66,12 +66,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-762505",
         "modelSha256": "3008ac4cae7d852be8a197a1b1aa29af31e517fe8593874372a3769baf776bc9",
-        "improvement_pct": 6.892718182968896,
-        "matched_issues": 696,
-        "utc_days": 27,
+        "improvement_pct": 6.935571294583713,
+        "matched_issues": 723,
+        "utc_days": 28,
         "wet_days": 9,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:17:57.591355Z",
+        "evidenceAsOf": "2026-11-22T01:22:13.857369Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "744130": {
@@ -79,12 +79,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-744130",
         "modelSha256": "054ef5fbf4b179c7e9ccf4597cec34c4cb2f140159988bc809626cb86c319c8c",
-        "improvement_pct": 16.449790633843207,
-        "matched_issues": 698,
-        "utc_days": 27,
+        "improvement_pct": 16.425227133888384,
+        "matched_issues": 722,
+        "utc_days": 28,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:19:21.340264Z",
+        "evidenceAsOf": "2026-11-22T01:22:50.852009Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "730511": {
@@ -92,12 +92,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-730511",
         "modelSha256": "6f2476494584e712ae28db8bf738ed468cf5cdc6f21641035e91f6db221c9df2",
-        "improvement_pct": 8.322771898648927,
-        "matched_issues": 729,
-        "utc_days": 27,
+        "improvement_pct": 8.193019770810606,
+        "matched_issues": 776,
+        "utc_days": 28,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T00:56:37.457678Z",
+        "evidenceAsOf": "2026-11-22T01:06:17.215081Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "761104": {
@@ -105,12 +105,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-761104",
         "modelSha256": "8bcc8342b44e755d7faa8d7886798fe45232c8c7fe7d7c6a0c73d9a1145c5135",
-        "improvement_pct": 10.183510609126863,
-        "matched_issues": 700,
-        "utc_days": 27,
+        "improvement_pct": 10.029696537812367,
+        "matched_issues": 724,
+        "utc_days": 28,
         "wet_days": 10,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:20:44.423860Z",
+        "evidenceAsOf": "2026-11-22T01:24:07.107873Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "735022": {
@@ -118,12 +118,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-735022",
         "modelSha256": "511100c02e5b75db9c3977d5ecb094320d602d00617201a7cfbb5f6e8765e9ae",
-        "improvement_pct": 19.493996681065674,
-        "matched_issues": 697,
-        "utc_days": 26,
+        "improvement_pct": 19.79570797844748,
+        "matched_issues": 720,
+        "utc_days": 27,
         "wet_days": 12,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:22:37.594853Z",
+        "evidenceAsOf": "2026-11-22T01:25:49.446180Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "730203": {
@@ -131,12 +131,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-730203",
         "modelSha256": "7434957dbc9bfb3df8d5dd38702209bfb826971478e479aa0503cee947dc0304",
-        "improvement_pct": 8.549778545792767,
-        "matched_issues": 661,
-        "utc_days": 25,
+        "improvement_pct": 8.456567670357003,
+        "matched_issues": 682,
+        "utc_days": 26,
         "wet_days": 12,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:24:00.570230Z",
+        "evidenceAsOf": "2026-11-22T01:27:08.432827Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "735328": {
@@ -144,12 +144,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.2.0-735328",
         "modelSha256": "cd32ca3951934b8e4fba8eb0153d5216c38c0a64ecb24011f8b904f7172be51c",
-        "improvement_pct": 9.012193170271134,
-        "matched_issues": 759,
-        "utc_days": 27,
+        "improvement_pct": 8.972562978756512,
+        "matched_issues": 783,
+        "utc_days": 28,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:26:34.026916Z",
+        "evidenceAsOf": "2026-11-22T01:29:51.367691Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "735123": {
@@ -157,12 +157,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-735123",
         "modelSha256": "980ef099ea7faf629aeffe1febd456d6d10ff4bc9166a57de7623a87bfc14e00",
-        "improvement_pct": 12.73706243600837,
-        "matched_issues": 706,
-        "utc_days": 26,
+        "improvement_pct": 12.660802648601614,
+        "matched_issues": 730,
+        "utc_days": 27,
         "wet_days": 12,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:25:39.839464Z",
+        "evidenceAsOf": "2026-11-22T01:28:21.743773Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "743509": {
@@ -170,7 +170,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-743509",
         "modelSha256": "d874b80c982971a8e3bec5046b3550a855301cbe934b0d6ac033dd2243a05e36",
-        "evidenceAsOf": "2026-11-21T01:28:13.159333Z",
+        "evidenceAsOf": "2026-11-22T01:31:26.276882Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "765052": {
@@ -178,7 +178,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-765052",
         "modelSha256": "0963da4c296785f9bf3b745aaaf23a488a1fb69c90a1b6ef3f9d5318dc324248",
-        "evidenceAsOf": "2026-11-21T01:30:24.939543Z",
+        "evidenceAsOf": "2026-11-22T01:30:00Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "737537": {
@@ -186,7 +186,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-737537",
         "modelSha256": "32e28f04d565a603616e6bd29f3386acc487a4eb330cbfdd0bf1b8bf98c8bee6",
-        "evidenceAsOf": "2026-11-21T01:32:30.375972Z",
+        "evidenceAsOf": "2026-11-22T01:35:33.330408Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "740101": {
@@ -199,7 +199,7 @@
         "utc_days": 20,
         "wet_days": 10,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-20T15:29:09.363781Z",
+        "evidenceAsOf": "2026-11-21T15:31:44.695902Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "735430": {
@@ -220,12 +220,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-730404",
         "modelSha256": "6dab647aad3cba62ef6e144d95aed271019197a8d7d647f09ab40b81592e58a8",
-        "improvement_pct": 5.860476573901288,
-        "matched_issues": 701,
-        "utc_days": 26,
+        "improvement_pct": 6.3463202712608,
+        "matched_issues": 724,
+        "utc_days": 27,
         "wet_days": 12,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:33:55.637951Z",
+        "evidenceAsOf": "2026-11-21T23:37:31.602095Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "730120": {
@@ -233,12 +233,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-730120",
         "modelSha256": "ae57b6024780fa6b53dba5679f8b42af14d7a047c632278581bc8333154fea4f",
-        "improvement_pct": 8.366109130426384,
-        "matched_issues": 665,
-        "utc_days": 27,
+        "improvement_pct": 8.287821850555321,
+        "matched_issues": 681,
+        "utc_days": 28,
         "wet_days": 12,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:34:17.031466Z",
+        "evidenceAsOf": "2026-11-21T23:37:21.485399Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "751007": {
@@ -246,12 +246,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-751007",
         "modelSha256": "16d021e4ff3590210ab48581a4bae1e963085ee1e8695949e606a13ecc4b20c4",
-        "improvement_pct": 13.585319524891318,
-        "matched_issues": 747,
-        "utc_days": 27,
+        "improvement_pct": 13.897223699300055,
+        "matched_issues": 769,
+        "utc_days": 28,
         "wet_days": 12,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:38:30.556229Z",
+        "evidenceAsOf": "2026-11-21T23:42:10.584686Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "750504": {
@@ -259,12 +259,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-750504",
         "modelSha256": "75b48f1e010f1efef7750f7e8357c98ec285669f300b463bb817ede145bd61d3",
-        "improvement_pct": 13.240052610779507,
-        "matched_issues": 629,
-        "utc_days": 24,
+        "improvement_pct": 13.062844095000923,
+        "matched_issues": 650,
+        "utc_days": 25,
         "wet_days": 8,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:36:29.179567Z",
+        "evidenceAsOf": "2026-11-22T01:40:21.216389Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "750605": {
@@ -272,7 +272,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-750605",
         "modelSha256": "7ee9d6c9b791026ff15a4ac18bcfacc02d1131e6c79ce44a4a3eea9c77a84389",
-        "evidenceAsOf": "2026-11-21T01:41:09.608041Z",
+        "evidenceAsOf": "2026-11-21T23:46:05.888422Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "743008": {
@@ -280,12 +280,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-743008",
         "modelSha256": "0b68ded975082ea5e400aef8041ce5a8b345a42f3511b941a758e2d3c3f78d3f",
-        "improvement_pct": 7.38625300898382,
-        "matched_issues": 125,
-        "utc_days": 20,
+        "improvement_pct": 7.746628580407227,
+        "matched_issues": 130,
+        "utc_days": 21,
         "wet_days": 9,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-20T15:37:19.594313Z",
+        "evidenceAsOf": "2026-11-21T15:39:54.901079Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "735226": {
@@ -293,7 +293,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-735226",
         "modelSha256": "a6ab74b6ff575c83a2079bffccadad7889173b78f977f611728e605618f585a6",
-        "evidenceAsOf": "2026-11-21T01:43:02.054454Z",
+        "evidenceAsOf": "2026-11-21T23:46:45.440784Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "730100": {
@@ -301,7 +301,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-730100",
         "modelSha256": "5afa4554adc671196688bc4738644ea57b9ce0649bf614181c1b1323e86ca96a",
-        "evidenceAsOf": "2026-11-21T01:44:49.679588Z",
+        "evidenceAsOf": "2026-11-22T01:48:35.515395Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "737526": {
@@ -309,12 +309,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-737526",
         "modelSha256": "4dc80bb91d31893cc7a7618282b62a203994366e454d586c94503dc92b464342",
-        "improvement_pct": 7.683999522725349,
-        "matched_issues": 758,
-        "utc_days": 27,
+        "improvement_pct": 7.551921765468306,
+        "matched_issues": 780,
+        "utc_days": 28,
         "wet_days": 13,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:45:39.900894Z",
+        "evidenceAsOf": "2026-11-21T23:48:50.495164Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "735019": {
@@ -322,12 +322,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-735019",
         "modelSha256": "e3531b5db8766dd822968ca4ba57b0c0d61d83df1bf501753c92f8a59807b603",
-        "improvement_pct": 5.590747692356763,
-        "matched_issues": 751,
-        "utc_days": 27,
+        "improvement_pct": 5.55169514612017,
+        "matched_issues": 775,
+        "utc_days": 28,
         "wet_days": 12,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:47:05.066175Z",
+        "evidenceAsOf": "2026-11-22T01:50:10.449507Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "761515": {
@@ -335,12 +335,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-761515",
         "modelSha256": "8890844e975f35a56e807ef2a73cd38e7526d5c9271ce7b0ff4718fae7a93287",
-        "improvement_pct": 9.18890325344276,
-        "matched_issues": 480,
-        "utc_days": 21,
+        "improvement_pct": 8.98052788658198,
+        "matched_issues": 502,
+        "utc_days": 22,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:48:31.868085Z",
+        "evidenceAsOf": "2026-11-21T23:51:10.593548Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "754016": {
@@ -348,7 +348,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-754016",
         "modelSha256": "4789abd6da2ca1a3ea402504bc90ef5401477073239d5b07d7c1fa3a6ffc912a",
-        "evidenceAsOf": "2026-11-21T01:50:12.022794Z",
+        "evidenceAsOf": "2026-11-22T01:52:59.967898Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "731013": {
@@ -356,12 +356,12 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-731013",
         "modelSha256": "874031c9c6c09b29f1f2e8c9e2f2dafaa184a35a0942dc04ec2e8c112deb08a8",
-        "improvement_pct": 6.4369695025883855,
-        "matched_issues": 719,
-        "utc_days": 26,
+        "improvement_pct": 6.817449833550317,
+        "matched_issues": 743,
+        "utc_days": 27,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:51:22.243309Z",
+        "evidenceAsOf": "2026-11-21T23:55:43.757507Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "761706": {
@@ -369,7 +369,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-761706",
         "modelSha256": "164073860a9ed55811a734360a2425acf31bba51c5ae78afa12e39f64ad4c5c4",
-        "evidenceAsOf": "2026-11-21T01:52:59.468299Z",
+        "evidenceAsOf": "2026-11-22T01:56:33.220839Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "765005": {
@@ -377,25 +377,20 @@
         "basis": "provisional matched evidence",
         "modelId": "lakes-0.3.0-765005",
         "modelSha256": "9e91eda2c4c1dc70aa3f2b0bcd98d59c2a7a382104804ad37e85c2f4c7718dd5",
-        "improvement_pct": 6.95767033538542,
-        "matched_issues": 751,
-        "utc_days": 27,
+        "improvement_pct": 7.134987491367177,
+        "matched_issues": 773,
+        "utc_days": 28,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:54:47.041735Z",
+        "evidenceAsOf": "2026-11-21T23:58:07.127574Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "750917": {
-        "variant": "damped_trend",
-        "basis": "provisional matched evidence",
+        "variant": "phase_response",
+        "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "lakes-0.3.0-750917",
         "modelSha256": "e4e588ee3a60d88a3a4282a13543be6b85e2fdc98f523667f03674561df280ea",
-        "improvement_pct": 7.576831995077753,
-        "matched_issues": 756,
-        "utc_days": 27,
-        "wet_days": 10,
-        "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:56:56.883733Z",
+        "evidenceAsOf": "2026-11-22T02:00:00Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L2309": {
@@ -403,20 +398,25 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-L2309",
         "modelSha256": "da8bd7b0a04c086e56188d2752163b01f717ee16d686c31621d5eb2b7530f16a",
-        "improvement_pct": 7.939970041217241,
-        "matched_issues": 772,
-        "utc_days": 27,
+        "improvement_pct": 7.9138409064671595,
+        "matched_issues": 796,
+        "utc_days": 28,
         "wet_days": 15,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:58:37.113113Z",
+        "evidenceAsOf": "2026-11-22T00:02:14.859277Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2306": {
-        "variant": "phase_response",
-        "basis": "phase-response hypothesis; no qualifying portable challenger",
+        "variant": "short_trend_fast_fall",
+        "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2306",
         "modelSha256": "d40b0eace509b8690eae907b64d926a266c5be5c3d12b5921f2ec18e39da9d1a",
-        "evidenceAsOf": "2026-11-21T02:00:00Z",
+        "improvement_pct": 7.8983320637325205,
+        "matched_issues": 765,
+        "utc_days": 28,
+        "wet_days": 14,
+        "coverage": 0.9720457433290979,
+        "evidenceAsOf": "2026-11-22T00:04:29.201819Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L2208": {
@@ -424,12 +424,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-L2208",
         "modelSha256": "fd8af712408091f3338b5f78ab8a7e608c6009dcc4d6840ec0d6c399e2fd2c1e",
-        "improvement_pct": 5.716213038423876,
-        "matched_issues": 739,
-        "utc_days": 27,
+        "improvement_pct": 5.398043177517609,
+        "matched_issues": 761,
+        "utc_days": 28,
         "wet_days": 14,
-        "coverage": 0.9672774869109948,
-        "evidenceAsOf": "2026-11-21T02:02:28.481444Z",
+        "coverage": 0.9681933842239185,
+        "evidenceAsOf": "2026-11-22T00:05:26.680568Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L2205": {
@@ -437,12 +437,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-L2205",
         "modelSha256": "dd362a6d9472bbd20e1fbe861901723e3e96a190a4fec95605fe3ae89bdc96a8",
-        "improvement_pct": 5.81861751430099,
-        "matched_issues": 732,
-        "utc_days": 27,
+        "improvement_pct": 5.8477564294850675,
+        "matched_issues": 755,
+        "utc_days": 28,
         "wet_days": 13,
-        "coverage": 0.954367666232073,
-        "evidenceAsOf": "2026-11-21T00:03:17.100978Z",
+        "coverage": 0.95448798988622,
+        "evidenceAsOf": "2026-11-22T00:07:08.953358Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L2203": {
@@ -450,12 +450,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-L2203",
         "modelSha256": "1d217a199695179b5e6fe2565c35557bfbcd9cb663912e435d01186ca149b5cd",
-        "improvement_pct": 7.916197767797964,
-        "matched_issues": 744,
-        "utc_days": 27,
+        "improvement_pct": 7.855880218681656,
+        "matched_issues": 766,
+        "utc_days": 28,
         "wet_days": 14,
-        "coverage": 0.96,
-        "evidenceAsOf": "2026-11-21T02:04:27.038785Z",
+        "coverage": 0.9611041405269761,
+        "evidenceAsOf": "2026-11-22T00:07:49.019578Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L1907": {
@@ -463,7 +463,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-L1907",
         "modelSha256": "af599ec38b013973ad9a3fe4950449c8ad1e5e720666c552f73b034c4e372dfb",
-        "evidenceAsOf": "2026-11-21T00:05:35.104309Z",
+        "evidenceAsOf": "2026-11-22T00:09:00.367952Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F1903": {
@@ -471,7 +471,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F1903",
         "modelSha256": "2a9ce22bcfe51fb5f12af24826b64252a70b5e3e6ccd62840d5703f75e848567",
-        "evidenceAsOf": "2026-11-21T02:07:12.463040Z",
+        "evidenceAsOf": "2026-11-22T00:10:26.442868Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L2008": {
@@ -479,7 +479,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-L2008",
         "modelSha256": "35f31cd6d4fa3401bc4fec507939ad8216fd99e546f16e7892d4f1271be7bf87",
-        "evidenceAsOf": "2026-11-21T00:09:05.644986Z",
+        "evidenceAsOf": "2026-11-22T00:12:35.141718Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2106": {
@@ -487,7 +487,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F2106",
         "modelSha256": "c157fd1c3c874ccc7b7bd84bef752e8e68a3c1ad121fb0c712d26b5dd27a57e4",
-        "evidenceAsOf": "2026-11-21T02:11:21.435842Z",
+        "evidenceAsOf": "2026-11-22T00:15:20.773100Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F1707": {
@@ -495,12 +495,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F1707",
         "modelSha256": "7a0244daea0ffbe1f2e2e3e6a0ce3caf14bfc84d98d3a15657c62030b19d9919",
-        "improvement_pct": 6.331609593846429,
-        "matched_issues": 728,
-        "utc_days": 27,
+        "improvement_pct": 6.373908126021358,
+        "matched_issues": 752,
+        "utc_days": 28,
         "wet_days": 12,
-        "coverage": 0.9578947368421052,
-        "evidenceAsOf": "2026-11-21T00:12:37.802215Z",
+        "coverage": 0.9591836734693877,
+        "evidenceAsOf": "2026-11-22T00:17:17.018528Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L1203": {
@@ -508,7 +508,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-L1203",
         "modelSha256": "3bc3391f0a55b08abb076cbf6ea82d626c4e97774e8803acdd8f0cbdb72adccb",
-        "evidenceAsOf": "2026-11-21T02:15:46.321853Z",
+        "evidenceAsOf": "2026-11-22T00:19:24.783054Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L0509": {
@@ -516,12 +516,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-L0509",
         "modelSha256": "8329468d8b71d8083738e35d07888ce4599617eacbbc88dda3eddc441fb3e147",
-        "improvement_pct": 6.2078403844103365,
-        "matched_issues": 767,
-        "utc_days": 27,
+        "improvement_pct": 6.273027145602285,
+        "matched_issues": 790,
+        "utc_days": 28,
         "wet_days": 15,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T00:37:42.282406Z",
+        "evidenceAsOf": "2026-11-22T00:41:26.484736Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L0607": {
@@ -529,12 +529,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-L0607",
         "modelSha256": "cf5a8d33aef13e553a22722400f30c7a6c4b6da2e57a32146fb9d8250ecf59a4",
-        "improvement_pct": 10.489667195522347,
-        "matched_issues": 772,
-        "utc_days": 27,
+        "improvement_pct": 10.398447646266549,
+        "matched_issues": 796,
+        "utc_days": 28,
         "wet_days": 13,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T02:14:57.264245Z",
+        "evidenceAsOf": "2026-11-22T00:18:58.105882Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L2905": {
@@ -542,7 +542,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-L2905",
         "modelSha256": "f08dee879e777a65da691a3762ab5d695f5eea8171c54e5a8ee55e4a798341b3",
-        "evidenceAsOf": "2026-11-21T00:36:10.247027Z",
+        "evidenceAsOf": "2026-11-22T00:40:16.866359Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2807": {
@@ -550,7 +550,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F2807",
         "modelSha256": "7663d800d4a0d1f3a929096413c11b26c533c9f6bb2c2023d87accfc2802584c",
-        "evidenceAsOf": "2026-11-21T02:19:06.104934Z",
+        "evidenceAsOf": "2026-11-22T00:21:49.511573Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L2200": {
@@ -558,12 +558,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-L2200",
         "modelSha256": "ae5027da1f46c7edd30cdcfd8315b204c2eaa646c0a9de967c073aea9834d858",
-        "improvement_pct": 6.250592482637761,
-        "matched_issues": 767,
-        "utc_days": 27,
+        "improvement_pct": 6.102144232771376,
+        "matched_issues": 792,
+        "utc_days": 28,
         "wet_days": 13,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T00:41:06.703799Z",
+        "evidenceAsOf": "2026-11-22T00:45:17.169518Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2508": {
@@ -571,12 +571,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2508",
         "modelSha256": "d29a974cf06dbfe76dd4212a79a014d219dc88b4e4a490185e35c8f924d4a6be",
-        "improvement_pct": 19.716357934756545,
-        "matched_issues": 768,
-        "utc_days": 27,
+        "improvement_pct": 19.593549490321337,
+        "matched_issues": 791,
+        "utc_days": 28,
         "wet_days": 14,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T02:18:00.254376Z",
+        "evidenceAsOf": "2026-11-22T00:21:57.225627Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F3523": {
@@ -584,12 +584,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F3523",
         "modelSha256": "1a2c98939389356b0d6027e992838922b9fe027261faca926b7670353f74ee56",
-        "improvement_pct": 6.121007991552604,
-        "matched_issues": 711,
-        "utc_days": 27,
+        "improvement_pct": 6.149576852977734,
+        "matched_issues": 735,
+        "utc_days": 28,
         "wet_days": 16,
-        "coverage": 0.9417218543046357,
-        "evidenceAsOf": "2026-11-21T00:39:09.072992Z",
+        "coverage": 0.9435173299101413,
+        "evidenceAsOf": "2026-11-22T00:43:50.652807Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F3505": {
@@ -597,12 +597,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F3505",
         "modelSha256": "7f90dd834364194fdaf7eb691e82e2d44991dcf3e8235fcaefc4cc052b5c3c11",
-        "improvement_pct": 8.794117086633618,
-        "matched_issues": 740,
-        "utc_days": 27,
+        "improvement_pct": 8.99289058572714,
+        "matched_issues": 762,
+        "utc_days": 28,
         "wet_days": 15,
-        "coverage": 0.961038961038961,
-        "evidenceAsOf": "2026-11-21T02:21:37.106926Z",
+        "coverage": 0.9621212121212122,
+        "evidenceAsOf": "2026-11-22T00:24:53.434446Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F3504": {
@@ -610,7 +610,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F3504",
         "modelSha256": "96a5f2dc44a1c9338d10f044206152988ce505f111d8dbc0139dbbf28cd7db98",
-        "evidenceAsOf": "2026-11-21T00:42:35.865533Z",
+        "evidenceAsOf": "2026-11-22T00:46:27.693150Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F3501": {
@@ -618,7 +618,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F3501",
         "modelSha256": "8fd191d716c0f42f663a5ebcccd004782de2975f1d3c2d5cea3ae8702daea1d7",
-        "evidenceAsOf": "2026-11-21T02:25:45.719050Z",
+        "evidenceAsOf": "2026-11-22T00:29:10.655205Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F3606": {
@@ -626,12 +626,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F3606",
         "modelSha256": "21d583494b93933f75ea2ab953e4161393c812ffa982110f4272ee61b4dc9c0e",
-        "improvement_pct": 12.953634479599902,
-        "matched_issues": 733,
-        "utc_days": 27,
+        "improvement_pct": 13.040661051442909,
+        "matched_issues": 757,
+        "utc_days": 28,
         "wet_days": 14,
-        "coverage": 0.9632063074901446,
-        "evidenceAsOf": "2026-11-21T00:47:00.342670Z",
+        "coverage": 0.9643312101910828,
+        "evidenceAsOf": "2026-11-22T00:51:13.089592Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L2351": {
@@ -639,12 +639,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-L2351",
         "modelSha256": "be5f2bd392474d2164f83e714e3593255c8b75c0418504dd14e3ef0d7be6bb36",
-        "improvement_pct": 9.338778980351172,
-        "matched_issues": 754,
-        "utc_days": 27,
+        "improvement_pct": 9.272754843071715,
+        "matched_issues": 778,
+        "utc_days": 28,
         "wet_days": 16,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T02:22:53.513994Z",
+        "evidenceAsOf": "2026-11-22T00:26:33.292140Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "L1231": {
@@ -652,7 +652,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-L1231",
         "modelSha256": "68ce3fecaed52d544b83b4cdc54a947c4f3b3e5fb818d5db5af415eb8b523c97",
-        "evidenceAsOf": "2026-11-21T00:44:08.690988Z",
+        "evidenceAsOf": "2026-11-22T00:48:37.623544Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F1003": {
@@ -660,12 +660,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F1003",
         "modelSha256": "e238b858e7fd1563e4884f53caa033716a7ff5b8e0ad51c28d4e94d235ecc221",
-        "improvement_pct": 5.969334043596386,
-        "matched_issues": 748,
-        "utc_days": 27,
+        "improvement_pct": 5.854899140953861,
+        "matched_issues": 772,
+        "utc_days": 28,
         "wet_days": 15,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T02:24:01.703981Z",
+        "evidenceAsOf": "2026-11-22T00:27:14.632910Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "710151": {
@@ -673,20 +673,25 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-710151",
         "modelSha256": "4debecfd06d83a2bdf205c5eb58febfaf98ef63c9b65ccb84baf494f9eee67e3",
-        "improvement_pct": 6.471194757567201,
-        "matched_issues": 699,
-        "utc_days": 26,
+        "improvement_pct": 6.412772482735653,
+        "matched_issues": 723,
+        "utc_days": 27,
         "wet_days": 11,
-        "coverage": 0.9817415730337079,
-        "evidenceAsOf": "2026-11-21T00:45:44.662300Z",
+        "coverage": 0.9823369565217391,
+        "evidenceAsOf": "2026-11-22T00:49:48.041849Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "724326": {
-        "variant": "phase_response",
-        "basis": "phase-response hypothesis; no qualifying portable challenger",
+        "variant": "slower_fall",
+        "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-724326",
         "modelSha256": "eebf43448430b31be8cae2bfe9e4ed38413fe37c2c5c31ef9449835802246743",
-        "evidenceAsOf": "2026-11-21T02:27:54.650220Z",
+        "improvement_pct": 5.007641654129451,
+        "matched_issues": 722,
+        "utc_days": 27,
+        "wet_days": 11,
+        "coverage": 1.0,
+        "evidenceAsOf": "2026-11-22T00:31:02.668550Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2603": {
@@ -694,12 +699,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2603",
         "modelSha256": "b359a922c78d4a648f8680dc582954963d25ffd7e69d724102f9cda70b54f3f8",
-        "improvement_pct": 5.013558300246013,
-        "matched_issues": 734,
-        "utc_days": 27,
+        "improvement_pct": 5.907936390763281,
+        "matched_issues": 763,
+        "utc_days": 28,
         "wet_days": 18,
-        "coverage": 0.9708994708994709,
-        "evidenceAsOf": "2026-11-21T00:50:19.446216Z",
+        "coverage": 0.9719745222929936,
+        "evidenceAsOf": "2026-11-22T00:54:32.798119Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F0806": {
@@ -707,12 +712,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F0806",
         "modelSha256": "65af5a632c945370e41dedc63caefb516cedaecd087b9d8e483cae5166676529",
-        "improvement_pct": 10.524413584308682,
-        "matched_issues": 742,
-        "utc_days": 27,
+        "improvement_pct": 10.551950520997867,
+        "matched_issues": 764,
+        "utc_days": 28,
         "wet_days": 12,
-        "coverage": 0.9674054758800521,
-        "evidenceAsOf": "2026-11-21T02:29:39.369837Z",
+        "coverage": 0.9683143219264893,
+        "evidenceAsOf": "2026-11-22T00:32:57.322497Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F0304": {
@@ -720,20 +725,25 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F0304",
         "modelSha256": "d3298a9eb345b1b80b8d91e09e0fe58b0c006c72e3692ed904965c930ed5ab88",
-        "improvement_pct": 7.734855085241373,
-        "matched_issues": 760,
-        "utc_days": 27,
+        "improvement_pct": 6.160901585152127,
+        "matched_issues": 784,
+        "utc_days": 28,
         "wet_days": 10,
-        "coverage": 0.988296488946684,
-        "evidenceAsOf": "2026-11-21T00:48:29.178344Z",
+        "coverage": 0.9886506935687264,
+        "evidenceAsOf": "2026-11-22T00:53:08.284530Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F1102": {
-        "variant": "phase_response",
-        "basis": "phase-response hypothesis; no qualifying portable challenger",
+        "variant": "damped_trend",
+        "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F1102",
         "modelSha256": "1b67f07b26ee8473ee4d2fa46eef791b4734d85a83bc640273648f9c6c217c95",
-        "evidenceAsOf": "2026-11-21T02:30:00Z",
+        "improvement_pct": 13.026900410554651,
+        "matched_issues": 775,
+        "utc_days": 28,
+        "wet_days": 13,
+        "coverage": 1.0,
+        "evidenceAsOf": "2026-11-22T00:34:06.924089Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F1403": {
@@ -741,15 +751,20 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F1403",
         "modelSha256": "3c16475379ecfba4b08b69692788334be1c9323d012e112291bcc78620bbc0e8",
-        "evidenceAsOf": "2026-11-21T00:51:24.189673Z",
+        "evidenceAsOf": "2026-11-22T00:55:12.928849Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2540": {
-        "variant": "phase_response",
-        "basis": "phase-response hypothesis; no qualifying portable challenger",
+        "variant": "short_trend_fast_fall",
+        "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2540",
         "modelSha256": "e7eabe5418027b50389d1cfce392ed3c17b07cb3cb89047e318741f30a885040",
-        "evidenceAsOf": "2026-11-21T02:30:00Z",
+        "improvement_pct": 6.71703291147578,
+        "matched_issues": 765,
+        "utc_days": 28,
+        "wet_days": 14,
+        "coverage": 0.9782608695652174,
+        "evidenceAsOf": "2026-11-22T00:37:01.864383Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2560": {
@@ -757,12 +772,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2560",
         "modelSha256": "654f6bf6e61ae2b8b011fa4e2b0e1da3c43aa90995b1da87281610f972c8f76b",
-        "improvement_pct": 9.682579650034235,
-        "matched_issues": 754,
-        "utc_days": 27,
+        "improvement_pct": 9.43331716103217,
+        "matched_issues": 777,
+        "utc_days": 28,
         "wet_days": 14,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T00:58:50.410258Z",
+        "evidenceAsOf": "2026-11-22T01:06:58.485047Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F3808": {
@@ -770,7 +785,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F3808",
         "modelSha256": "d23382b270ff3b7a3a2bacc4e3d859957c01dda4f7205bd3a995fdc57d16d0cd",
-        "evidenceAsOf": "2026-11-21T02:30:00Z",
+        "evidenceAsOf": "2026-11-22T00:38:22.678297Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F3102": {
@@ -778,15 +793,20 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F3102",
         "modelSha256": "516215d2fbc48dbd40e22dfacaf2ffd03234f468ea4f1705a65a3d2555d35043",
-        "evidenceAsOf": "2026-11-21T00:58:41.107083Z",
+        "evidenceAsOf": "2026-11-22T01:07:08.267848Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2470": {
-        "variant": "phase_response",
-        "basis": "phase-response hypothesis; no qualifying portable challenger",
+        "variant": "less_rain",
+        "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2470",
         "modelSha256": "dc4b7d51cd496c34f4b55aef5fbf38ac4daeb7ce1d0650230791071eca999c0f",
-        "evidenceAsOf": "2026-11-21T02:30:00Z",
+        "improvement_pct": 13.928504915542717,
+        "matched_issues": 792,
+        "utc_days": 28,
+        "wet_days": 12,
+        "coverage": 1.0,
+        "evidenceAsOf": "2026-11-22T00:37:41.962583Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2313": {
@@ -794,12 +814,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2313",
         "modelSha256": "59a6da0ba9210651035e6b30dc5ba414b5ff0a11f32a03f0b8efc66bce8c8af7",
-        "improvement_pct": 9.941835646322868,
-        "matched_issues": 761,
-        "utc_days": 27,
+        "improvement_pct": 9.843469659262297,
+        "matched_issues": 785,
+        "utc_days": 28,
         "wet_days": 13,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T00:59:15.144550Z",
+        "evidenceAsOf": "2026-11-22T01:07:42.432447Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2515": {
@@ -807,7 +827,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F2515",
         "modelSha256": "c30fcbd756c90e310464ae231ba898f2b72d0ec2620b0302477f7eba7ef580b9",
-        "evidenceAsOf": "2026-11-21T00:59:39.250657Z",
+        "evidenceAsOf": "2026-11-22T01:08:17.777310Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2581": {
@@ -815,12 +835,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2581",
         "modelSha256": "2fbcd7545a17c04a8417c6459d80ce6265470d2dd710a195681f4ca99376c19a",
-        "improvement_pct": 9.655438218110808,
-        "matched_issues": 767,
-        "utc_days": 27,
+        "improvement_pct": 9.47073152113765,
+        "matched_issues": 792,
+        "utc_days": 28,
         "wet_days": 13,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:00:16.702440Z",
+        "evidenceAsOf": "2026-11-22T01:07:17.126884Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F1240": {
@@ -828,12 +848,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F1240",
         "modelSha256": "630e27a84bcb9100e4b824ce9142ad33ced55a753bda3a17e582feaa1210b7d7",
-        "improvement_pct": 5.123058267589961,
-        "matched_issues": 767,
-        "utc_days": 27,
+        "improvement_pct": 5.124700545158172,
+        "matched_issues": 790,
+        "utc_days": 28,
         "wet_days": 16,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:01:18.330202Z",
+        "evidenceAsOf": "2026-11-22T01:08:06.468442Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2570": {
@@ -841,12 +861,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F2570",
         "modelSha256": "b9966d2c73dab0fa337e1652bb884156949b969995b418453f4fbcfdb6de55c0",
-        "improvement_pct": 6.219571663457923,
-        "matched_issues": 753,
-        "utc_days": 27,
+        "improvement_pct": 6.0463531267428,
+        "matched_issues": 782,
+        "utc_days": 28,
         "wet_days": 14,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:04:49.943899Z",
+        "evidenceAsOf": "2026-11-22T01:09:08.076846Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F2330": {
@@ -854,7 +874,7 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F2330",
         "modelSha256": "45b0cffee352b4dfb223bf055e677443626bde3ba4bb1d7cc3e9a98741986623",
-        "evidenceAsOf": "2026-11-21T01:02:31.110221Z",
+        "evidenceAsOf": "2026-11-22T01:08:41.181646Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F0402": {
@@ -862,12 +882,12 @@
         "basis": "provisional matched evidence",
         "modelId": "yorkshire-0.4.0-F0402",
         "modelSha256": "2aec95bdeca11bdbd8fe33ff314ae643c7fbfcc263d9534b96c72a060f666b12",
-        "improvement_pct": 5.815725572200208,
-        "matched_issues": 760,
-        "utc_days": 27,
+        "improvement_pct": 5.444582172406178,
+        "matched_issues": 780,
+        "utc_days": 28,
         "wet_days": 11,
         "coverage": 1.0,
-        "evidenceAsOf": "2026-11-21T01:05:25.246367Z",
+        "evidenceAsOf": "2026-11-22T01:09:50.893334Z",
         "sourceVersion": "0.10.9-web.1"
       },
       "F1503": {
@@ -875,16 +895,16 @@
         "basis": "phase-response hypothesis; no qualifying portable challenger",
         "modelId": "yorkshire-0.4.0-F1503",
         "modelSha256": "fe24ef95b290197671fcfab409cb44bb70bed465c6d8941aef386f35d9722056",
-        "evidenceAsOf": "2026-11-21T01:07:56.952538Z",
+        "evidenceAsOf": "2026-11-22T01:13:50.232421Z",
         "sourceVersion": "0.10.9-web.1"
       }
     },
     "evidenceBasis": "Latest frozen per-gauge Lab matched ranking; evidenceAsOf records each ranking time. Older evidence retains the bundled choice.",
-    "modelNumber": 4,
-    "modelVersion": "M000004"
+    "modelNumber": 5,
+    "modelVersion": "M000005"
   },
-  "modelNumber": 4,
-  "modelVersion": "M000004",
-  "publishedAt": "2026-11-21T03:02:12.482642Z",
-  "publishedLocalDate": "2026-11-21"
+  "modelNumber": 5,
+  "modelVersion": "M000005",
+  "publishedAt": "2026-11-22T02:15:10.710406Z",
+  "publishedLocalDate": "2026-11-22"
 }
